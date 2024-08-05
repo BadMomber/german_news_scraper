@@ -1,0 +1,1042 @@
+[240616 22:18:36] I:49:__init__ - Initializing de_spiegel scraper.
+[240616 22:18:36] I:130:_load_table - Load database from articles.db.
+[240616 22:18:36] I:158:_load_table - Loaded 0 articles from database. 0.0% scraped and 0.0% processed.
+[240616 22:18:36] I:185:index_articles_by_date_range - Start scraping articles for 31 days (01.08.21 - 31.08.21). 0 days already indexed.
+[240616 22:18:37] I:225:index_articles_by_date_range - 1/ 31: Indexed 69/ 69 articles for 01.08.2021 (n=69).
+[240616 22:18:38] I:225:index_articles_by_date_range - 2/ 31: Indexed 104/104 articles for 02.08.2021 (n=173).
+[240616 22:18:39] I:225:index_articles_by_date_range - 3/ 31: Indexed 116/116 articles for 03.08.2021 (n=289).
+[240616 22:18:39] I:225:index_articles_by_date_range - 4/ 31: Indexed 109/109 articles for 04.08.2021 (n=398).
+[240616 22:18:41] I:225:index_articles_by_date_range - 5/ 31: Indexed 122/122 articles for 05.08.2021 (n=520).
+[240616 22:18:41] I:225:index_articles_by_date_range - 6/ 31: Indexed 134/134 articles for 06.08.2021 (n=654).
+[240616 22:18:42] I:225:index_articles_by_date_range - 7/ 31: Indexed 76/ 76 articles for 07.08.2021 (n=730).
+[240616 22:18:43] I:225:index_articles_by_date_range - 8/ 31: Indexed 75/ 75 articles for 08.08.2021 (n=805).
+[240616 22:18:44] I:225:index_articles_by_date_range - 9/ 31: Indexed 109/109 articles for 09.08.2021 (n=914).
+[240616 22:18:45] I:225:index_articles_by_date_range - 10/ 31: Indexed 105/105 articles for 10.08.2021 (n=1,019).
+[240616 22:18:46] I:225:index_articles_by_date_range - 11/ 31: Indexed 109/109 articles for 11.08.2021 (n=1,128).
+[240616 22:18:47] I:225:index_articles_by_date_range - 12/ 31: Indexed 104/104 articles for 12.08.2021 (n=1,232).
+[240616 22:18:48] I:225:index_articles_by_date_range - 13/ 31: Indexed 141/141 articles for 13.08.2021 (n=1,373).
+[240616 22:18:49] I:225:index_articles_by_date_range - 14/ 31: Indexed 67/ 67 articles for 14.08.2021 (n=1,440).
+[240616 22:18:50] I:225:index_articles_by_date_range - 15/ 31: Indexed 65/ 65 articles for 15.08.2021 (n=1,505).
+[240616 22:18:51] I:225:index_articles_by_date_range - 16/ 31: Indexed 101/101 articles for 16.08.2021 (n=1,606).
+[240616 22:18:51] I:225:index_articles_by_date_range - 17/ 31: Indexed 95/ 95 articles for 17.08.2021 (n=1,701).
+[240616 22:18:53] I:225:index_articles_by_date_range - 18/ 31: Indexed 111/111 articles for 18.08.2021 (n=1,812).
+[240616 22:18:54] I:225:index_articles_by_date_range - 19/ 31: Indexed 124/124 articles for 19.08.2021 (n=1,936).
+[240616 22:18:55] I:225:index_articles_by_date_range - 20/ 31: Indexed 142/142 articles for 20.08.2021 (n=2,078).
+[240616 22:18:56] I:225:index_articles_by_date_range - 21/ 31: Indexed 74/ 75 articles for 21.08.2021 (n=2,152).
+[240616 22:18:57] I:225:index_articles_by_date_range - 22/ 31: Indexed 71/ 71 articles for 22.08.2021 (n=2,223).
+[240616 22:18:58] I:225:index_articles_by_date_range - 23/ 31: Indexed 97/ 97 articles for 23.08.2021 (n=2,320).
+[240616 22:18:59] I:225:index_articles_by_date_range - 24/ 31: Indexed 104/104 articles for 24.08.2021 (n=2,424).
+[240616 22:19:00] I:225:index_articles_by_date_range - 25/ 31: Indexed 115/115 articles for 25.08.2021 (n=2,539).
+[240616 22:19:01] I:225:index_articles_by_date_range - 26/ 31: Indexed 97/ 97 articles for 26.08.2021 (n=2,636).
+[240616 22:19:02] I:225:index_articles_by_date_range - 27/ 31: Indexed 139/139 articles for 27.08.2021 (n=2,775).
+[240616 22:19:03] I:225:index_articles_by_date_range - 28/ 31: Indexed 91/ 91 articles for 28.08.2021 (n=2,866).
+[240616 22:19:03] I:225:index_articles_by_date_range - 29/ 31: Indexed 71/ 71 articles for 29.08.2021 (n=2,937).
+[240616 22:19:04] I:225:index_articles_by_date_range - 30/ 31: Indexed 106/106 articles for 30.08.2021 (n=3,043).
+[240616 22:19:05] I:225:index_articles_by_date_range - 31/ 31: Indexed 117/117 articles for 31.08.2021 (n=3,160).
+[240616 22:19:05] I:331:scrape_public_articles - Start scraping 3,160 public articles.
+[240616 22:19:05] I:345:scrape_public_articles - New feature detected: MetaDescription
+[240616 22:19:05] I:345:scrape_public_articles - New feature detected: MetaLang
+[240616 22:19:05] I:345:scrape_public_articles - New feature detected: MetaKeywords
+[240616 22:19:05] I:345:scrape_public_articles - New feature detected: MetaFavicon
+[240616 22:19:05] I:345:scrape_public_articles - New feature detected: MetaCanonical
+[240616 22:19:05] I:345:scrape_public_articles - New feature detected: MetaEncoding
+[240616 22:19:05] I:345:scrape_public_articles - New feature detected: Image
+[240616 22:19:05] I:345:scrape_public_articles - New feature detected: Domain
+[240616 22:19:05] I:345:scrape_public_articles - New feature detected: Title
+[240616 22:19:05] I:345:scrape_public_articles - New feature detected: Text
+[240616 22:19:05] I:345:scrape_public_articles - New feature detected: OpengraphTitle
+[240616 22:19:05] I:345:scrape_public_articles - New feature detected: OpengraphType
+[240616 22:19:05] I:345:scrape_public_articles - New feature detected: OpengraphUrl
+[240616 22:19:05] I:345:scrape_public_articles - New feature detected: OpengraphImage
+[240616 22:19:05] I:345:scrape_public_articles - New feature detected: OpengraphDescription
+[240616 22:19:05] I:345:scrape_public_articles - New feature detected: Tags
+[240616 22:19:05] I:345:scrape_public_articles - New feature detected: Tweets
+[240616 22:19:05] I:345:scrape_public_articles - New feature detected: Movies
+[240616 22:19:05] I:345:scrape_public_articles - New feature detected: Links
+[240616 22:19:05] I:345:scrape_public_articles - New feature detected: Authors
+[240616 22:19:05] I:345:scrape_public_articles - New feature detected: PublishDate
+[240616 22:54:12] I:435:nlp - Start processing 2,338 articles.
+[240616 22:56:45] I:49:__init__ - Initializing de_spiegel scraper.
+[240616 22:56:45] I:130:_load_table - Load database from articles.db.
+[240616 22:56:45] I:158:_load_table - Loaded 3,160 articles from database. 74.7% scraped and 0.0% processed.
+[240616 22:56:45] I:182:index_articles_by_date_range - No new days to scrape. Pass skip_existing=False to scrape all days again.
+[240616 22:56:45] I:328:scrape_public_articles - No articles to scrape.
+[240616 22:56:55] I:49:__init__ - Initializing de_spiegel scraper.
+[240616 22:56:55] I:130:_load_table - Load database from articles.db.
+[240616 22:56:55] I:158:_load_table - Loaded 3,160 articles from database. 74.7% scraped and 0.0% processed.
+[240616 22:56:55] I:182:index_articles_by_date_range - No new days to scrape. Pass skip_existing=False to scrape all days again.
+[240616 22:56:55] I:328:scrape_public_articles - No articles to scrape.
+[240616 22:57:01] I:49:__init__ - Initializing de_spiegel scraper.
+[240616 22:57:01] I:130:_load_table - Load database from articles.db.
+[240616 22:57:01] I:158:_load_table - Loaded 3,160 articles from database. 74.7% scraped and 0.0% processed.
+[240616 22:57:01] I:182:index_articles_by_date_range - No new days to scrape. Pass skip_existing=False to scrape all days again.
+[240616 22:57:01] I:328:scrape_public_articles - No articles to scrape.
+[240616 22:57:06] I:49:__init__ - Initializing de_spiegel scraper.
+[240616 22:57:06] I:130:_load_table - Load database from articles.db.
+[240616 22:57:06] I:158:_load_table - Loaded 3,160 articles from database. 74.7% scraped and 0.0% processed.
+[240616 22:57:06] I:182:index_articles_by_date_range - No new days to scrape. Pass skip_existing=False to scrape all days again.
+[240616 22:57:06] I:328:scrape_public_articles - No articles to scrape.
+[240616 22:57:06] I:435:nlp - Start processing 2,360 articles.
+[240616 23:17:10] I:49:__init__ - Initializing de_spiegel scraper.
+[240616 23:17:10] I:130:_load_table - Load database from spiegel.db.
+[240616 23:17:10] I:158:_load_table - Loaded 0 articles from database. 0.0% scraped and 0.0% processed.
+[240616 23:17:10] I:185:index_articles_by_date_range - Start scraping articles for 593 days (01.11.22 - 15.06.24). 0 days already indexed.
+[240616 23:17:11] I:225:index_articles_by_date_range - 1/593: Indexed 111/111 articles for 01.11.2022 (n=111).
+[240616 23:17:11] I:225:index_articles_by_date_range - 2/593: Indexed 120/120 articles for 02.11.2022 (n=231).
+[240616 23:17:12] I:225:index_articles_by_date_range - 3/593: Indexed 128/128 articles for 03.11.2022 (n=359).
+[240616 23:17:14] I:225:index_articles_by_date_range - 4/593: Indexed 157/157 articles for 04.11.2022 (n=516).
+[240616 23:17:14] I:225:index_articles_by_date_range - 5/593: Indexed 73/ 73 articles for 05.11.2022 (n=589).
+[240616 23:17:15] I:225:index_articles_by_date_range - 6/593: Indexed 72/ 72 articles for 06.11.2022 (n=661).
+[240616 23:17:16] I:225:index_articles_by_date_range - 7/593: Indexed 119/119 articles for 07.11.2022 (n=780).
+[240616 23:17:17] I:225:index_articles_by_date_range - 8/593: Indexed 113/113 articles for 08.11.2022 (n=893).
+[240616 23:17:18] I:225:index_articles_by_date_range - 9/593: Indexed 133/133 articles for 09.11.2022 (n=1,026).
+[240616 23:17:19] I:225:index_articles_by_date_range - 10/593: Indexed 122/122 articles for 10.11.2022 (n=1,148).
+[240616 23:17:20] I:225:index_articles_by_date_range - 11/593: Indexed 159/159 articles for 11.11.2022 (n=1,307).
+[240616 23:17:21] I:225:index_articles_by_date_range - 12/593: Indexed 73/ 73 articles for 12.11.2022 (n=1,380).
+[240616 23:17:22] I:225:index_articles_by_date_range - 13/593: Indexed 71/ 71 articles for 13.11.2022 (n=1,451).
+[240616 23:17:22] I:225:index_articles_by_date_range - 14/593: Indexed 108/108 articles for 14.11.2022 (n=1,559).
+[240616 23:17:23] I:225:index_articles_by_date_range - 15/593: Indexed 104/104 articles for 15.11.2022 (n=1,663).
+[240616 23:17:24] I:225:index_articles_by_date_range - 16/593: Indexed 127/127 articles for 16.11.2022 (n=1,790).
+[240616 23:17:26] I:225:index_articles_by_date_range - 17/593: Indexed 135/135 articles for 17.11.2022 (n=1,925).
+[240616 23:17:27] I:225:index_articles_by_date_range - 18/593: Indexed 165/165 articles for 18.11.2022 (n=2,090).
+[240616 23:17:28] I:225:index_articles_by_date_range - 19/593: Indexed 61/ 61 articles for 19.11.2022 (n=2,151).
+[240616 23:17:29] I:225:index_articles_by_date_range - 20/593: Indexed 81/ 81 articles for 20.11.2022 (n=2,232).
+[240616 23:17:30] I:225:index_articles_by_date_range - 21/593: Indexed 99/ 99 articles for 21.11.2022 (n=2,331).
+[240616 23:17:31] I:225:index_articles_by_date_range - 22/593: Indexed 120/120 articles for 22.11.2022 (n=2,451).
+[240616 23:17:31] I:225:index_articles_by_date_range - 23/593: Indexed 121/121 articles for 23.11.2022 (n=2,572).
+[240616 23:17:32] I:225:index_articles_by_date_range - 24/593: Indexed 132/132 articles for 24.11.2022 (n=2,704).
+[240616 23:17:33] I:225:index_articles_by_date_range - 25/593: Indexed 137/137 articles for 25.11.2022 (n=2,841).
+[240616 23:17:34] I:225:index_articles_by_date_range - 26/593: Indexed 76/ 77 articles for 26.11.2022 (n=2,917).
+[240616 23:17:35] I:225:index_articles_by_date_range - 27/593: Indexed 76/ 76 articles for 27.11.2022 (n=2,993).
+[240616 23:17:35] I:225:index_articles_by_date_range - 28/593: Indexed 101/102 articles for 28.11.2022 (n=3,094).
+[240616 23:17:36] I:225:index_articles_by_date_range - 29/593: Indexed 111/111 articles for 29.11.2022 (n=3,205).
+[240616 23:17:37] I:225:index_articles_by_date_range - 30/593: Indexed 114/114 articles for 30.11.2022 (n=3,319).
+[240616 23:17:38] I:225:index_articles_by_date_range - 31/593: Indexed 122/122 articles for 01.12.2022 (n=3,441).
+[240616 23:17:39] I:225:index_articles_by_date_range - 32/593: Indexed 146/146 articles for 02.12.2022 (n=3,587).
+[240616 23:17:40] I:225:index_articles_by_date_range - 33/593: Indexed 83/ 83 articles for 03.12.2022 (n=3,670).
+[240616 23:17:40] I:225:index_articles_by_date_range - 34/593: Indexed 77/ 77 articles for 04.12.2022 (n=3,747).
+[240616 23:17:41] I:225:index_articles_by_date_range - 35/593: Indexed 125/125 articles for 05.12.2022 (n=3,872).
+[240616 23:17:42] I:225:index_articles_by_date_range - 36/593: Indexed 118/118 articles for 06.12.2022 (n=3,990).
+[240616 23:17:43] I:225:index_articles_by_date_range - 37/593: Indexed 122/122 articles for 07.12.2022 (n=4,112).
+[240616 23:17:44] I:225:index_articles_by_date_range - 38/593: Indexed 102/102 articles for 08.12.2022 (n=4,214).
+[240616 23:17:45] I:225:index_articles_by_date_range - 39/593: Indexed 151/151 articles for 09.12.2022 (n=4,365).
+[240616 23:17:46] I:225:index_articles_by_date_range - 40/593: Indexed 69/ 69 articles for 10.12.2022 (n=4,434).
+[240616 23:17:47] I:225:index_articles_by_date_range - 41/593: Indexed 63/ 63 articles for 11.12.2022 (n=4,497).
+[240616 23:17:48] I:225:index_articles_by_date_range - 42/593: Indexed 98/ 98 articles for 12.12.2022 (n=4,595).
+[240616 23:17:48] I:225:index_articles_by_date_range - 43/593: Indexed 119/119 articles for 13.12.2022 (n=4,714).
+[240616 23:17:49] I:225:index_articles_by_date_range - 44/593: Indexed 114/114 articles for 14.12.2022 (n=4,828).
+[240616 23:17:50] I:225:index_articles_by_date_range - 45/593: Indexed 119/119 articles for 15.12.2022 (n=4,947).
+[240616 23:17:51] I:225:index_articles_by_date_range - 46/593: Indexed 133/133 articles for 16.12.2022 (n=5,080).
+[240616 23:17:52] I:225:index_articles_by_date_range - 47/593: Indexed 77/ 77 articles for 17.12.2022 (n=5,157).
+[240616 23:17:52] I:225:index_articles_by_date_range - 48/593: Indexed 69/ 69 articles for 18.12.2022 (n=5,226).
+[240616 23:17:53] I:225:index_articles_by_date_range - 49/593: Indexed 100/100 articles for 19.12.2022 (n=5,326).
+[240616 23:17:54] I:225:index_articles_by_date_range - 50/593: Indexed 107/107 articles for 20.12.2022 (n=5,433).
+[240616 23:17:55] I:225:index_articles_by_date_range - 51/593: Indexed 107/107 articles for 21.12.2022 (n=5,540).
+[240616 23:17:56] I:225:index_articles_by_date_range - 52/593: Indexed 126/126 articles for 22.12.2022 (n=5,666).
+[240616 23:17:56] I:225:index_articles_by_date_range - 53/593: Indexed 86/ 86 articles for 23.12.2022 (n=5,752).
+[240616 23:17:57] I:225:index_articles_by_date_range - 54/593: Indexed 56/ 56 articles for 24.12.2022 (n=5,808).
+[240616 23:17:59] I:225:index_articles_by_date_range - 55/593: Indexed 52/ 52 articles for 25.12.2022 (n=5,860).
+[240616 23:18:00] I:225:index_articles_by_date_range - 56/593: Indexed 84/ 84 articles for 26.12.2022 (n=5,944).
+[240616 23:18:01] I:225:index_articles_by_date_range - 57/593: Indexed 90/ 90 articles for 27.12.2022 (n=6,034).
+[240616 23:18:02] I:225:index_articles_by_date_range - 58/593: Indexed 104/104 articles for 28.12.2022 (n=6,138).
+[240616 23:18:03] I:225:index_articles_by_date_range - 59/593: Indexed 157/157 articles for 29.12.2022 (n=6,295).
+[240616 23:18:04] I:225:index_articles_by_date_range - 60/593: Indexed 105/105 articles for 30.12.2022 (n=6,400).
+[240616 23:18:05] I:225:index_articles_by_date_range - 61/593: Indexed 67/ 67 articles for 31.12.2022 (n=6,467).
+[240616 23:18:06] I:225:index_articles_by_date_range - 62/593: Indexed 58/ 58 articles for 01.01.2023 (n=6,525).
+[240616 23:18:08] I:225:index_articles_by_date_range - 63/593: Indexed 98/ 98 articles for 02.01.2023 (n=6,623).
+[240616 23:18:09] I:225:index_articles_by_date_range - 64/593: Indexed 99/ 99 articles for 03.01.2023 (n=6,722).
+[240616 23:18:10] I:225:index_articles_by_date_range - 65/593: Indexed 95/ 95 articles for 04.01.2023 (n=6,817).
+[240616 23:18:12] I:225:index_articles_by_date_range - 66/593: Indexed 113/113 articles for 05.01.2023 (n=6,930).
+[240616 23:18:13] I:225:index_articles_by_date_range - 67/593: Indexed 131/131 articles for 06.01.2023 (n=7,061).
+[240616 23:18:15] I:225:index_articles_by_date_range - 68/593: Indexed 74/ 74 articles for 07.01.2023 (n=7,135).
+[240616 23:18:16] I:225:index_articles_by_date_range - 69/593: Indexed 70/ 70 articles for 08.01.2023 (n=7,205).
+[240616 23:18:17] I:225:index_articles_by_date_range - 70/593: Indexed 95/ 95 articles for 09.01.2023 (n=7,300).
+[240616 23:18:17] I:225:index_articles_by_date_range - 71/593: Indexed 110/110 articles for 10.01.2023 (n=7,410).
+[240616 23:18:19] I:225:index_articles_by_date_range - 72/593: Indexed 110/110 articles for 11.01.2023 (n=7,520).
+[240616 23:18:20] I:225:index_articles_by_date_range - 73/593: Indexed 123/123 articles for 12.01.2023 (n=7,643).
+[240616 23:18:21] I:225:index_articles_by_date_range - 74/593: Indexed 131/131 articles for 13.01.2023 (n=7,774).
+[240616 23:18:22] I:225:index_articles_by_date_range - 75/593: Indexed 77/ 77 articles for 14.01.2023 (n=7,851).
+[240616 23:18:22] I:225:index_articles_by_date_range - 76/593: Indexed 67/ 67 articles for 15.01.2023 (n=7,918).
+[240616 23:18:23] I:225:index_articles_by_date_range - 77/593: Indexed 106/106 articles for 16.01.2023 (n=8,024).
+[240616 23:18:24] I:225:index_articles_by_date_range - 78/593: Indexed 127/127 articles for 17.01.2023 (n=8,151).
+[240616 23:18:25] I:225:index_articles_by_date_range - 79/593: Indexed 112/112 articles for 18.01.2023 (n=8,263).
+[240616 23:18:26] I:225:index_articles_by_date_range - 80/593: Indexed 134/134 articles for 19.01.2023 (n=8,397).
+[240616 23:18:27] I:225:index_articles_by_date_range - 81/593: Indexed 175/175 articles for 20.01.2023 (n=8,572).
+[240616 23:18:28] I:225:index_articles_by_date_range - 82/593: Indexed 73/ 73 articles for 21.01.2023 (n=8,645).
+[240616 23:18:29] I:225:index_articles_by_date_range - 83/593: Indexed 79/ 79 articles for 22.01.2023 (n=8,724).
+[240616 23:18:30] I:225:index_articles_by_date_range - 84/593: Indexed 114/114 articles for 23.01.2023 (n=8,838).
+[240616 23:18:31] I:225:index_articles_by_date_range - 85/593: Indexed 109/109 articles for 24.01.2023 (n=8,947).
+[240616 23:18:32] I:225:index_articles_by_date_range - 86/593: Indexed 116/116 articles for 25.01.2023 (n=9,063).
+[240616 23:18:33] I:225:index_articles_by_date_range - 87/593: Indexed 133/133 articles for 26.01.2023 (n=9,196).
+[240616 23:18:34] I:225:index_articles_by_date_range - 88/593: Indexed 151/151 articles for 27.01.2023 (n=9,347).
+[240616 23:18:34] I:225:index_articles_by_date_range - 89/593: Indexed 62/ 62 articles for 28.01.2023 (n=9,409).
+[240616 23:18:35] I:225:index_articles_by_date_range - 90/593: Indexed 78/ 78 articles for 29.01.2023 (n=9,487).
+[240616 23:18:36] I:225:index_articles_by_date_range - 91/593: Indexed 118/118 articles for 30.01.2023 (n=9,605).
+[240616 23:18:37] I:225:index_articles_by_date_range - 92/593: Indexed 126/126 articles for 31.01.2023 (n=9,731).
+[240616 23:18:38] I:225:index_articles_by_date_range - 93/593: Indexed 112/112 articles for 01.02.2023 (n=9,843).
+[240616 23:18:39] I:225:index_articles_by_date_range - 94/593: Indexed 103/103 articles for 02.02.2023 (n=9,946).
+[240616 23:18:40] I:225:index_articles_by_date_range - 95/593: Indexed 126/126 articles for 03.02.2023 (n=10,072).
+[240616 23:18:41] I:225:index_articles_by_date_range - 96/593: Indexed 71/ 71 articles for 04.02.2023 (n=10,143).
+[240616 23:18:42] I:225:index_articles_by_date_range - 97/593: Indexed 74/ 74 articles for 05.02.2023 (n=10,217).
+[240616 23:18:43] I:225:index_articles_by_date_range - 98/593: Indexed 113/113 articles for 06.02.2023 (n=10,330).
+[240616 23:18:44] I:225:index_articles_by_date_range - 99/593: Indexed 122/122 articles for 07.02.2023 (n=10,452).
+[240616 23:18:45] I:225:index_articles_by_date_range - 100/593: Indexed 115/115 articles for 08.02.2023 (n=10,567).
+[240616 23:18:46] I:225:index_articles_by_date_range - 101/593: Indexed 117/117 articles for 09.02.2023 (n=10,684).
+[240616 23:18:47] I:225:index_articles_by_date_range - 102/593: Indexed 147/147 articles for 10.02.2023 (n=10,831).
+[240616 23:18:47] I:225:index_articles_by_date_range - 103/593: Indexed 79/ 79 articles for 11.02.2023 (n=10,910).
+[240616 23:18:49] I:225:index_articles_by_date_range - 104/593: Indexed 95/ 95 articles for 12.02.2023 (n=11,005).
+[240616 23:18:50] I:225:index_articles_by_date_range - 105/593: Indexed 115/115 articles for 13.02.2023 (n=11,120).
+[240616 23:18:51] I:225:index_articles_by_date_range - 106/593: Indexed 125/125 articles for 14.02.2023 (n=11,245).
+[240616 23:18:52] I:225:index_articles_by_date_range - 107/593: Indexed 127/127 articles for 15.02.2023 (n=11,372).
+[240616 23:18:53] I:225:index_articles_by_date_range - 108/593: Indexed 120/120 articles for 16.02.2023 (n=11,492).
+[240616 23:18:54] I:225:index_articles_by_date_range - 109/593: Indexed 151/151 articles for 17.02.2023 (n=11,643).
+[240616 23:18:55] I:225:index_articles_by_date_range - 110/593: Indexed 81/ 81 articles for 18.02.2023 (n=11,724).
+[240616 23:18:56] I:225:index_articles_by_date_range - 111/593: Indexed 75/ 75 articles for 19.02.2023 (n=11,799).
+[240616 23:18:56] I:225:index_articles_by_date_range - 112/593: Indexed 99/ 99 articles for 20.02.2023 (n=11,898).
+[240616 23:18:57] I:225:index_articles_by_date_range - 113/593: Indexed 124/124 articles for 21.02.2023 (n=12,022).
+[240616 23:18:59] I:225:index_articles_by_date_range - 114/593: Indexed 119/119 articles for 22.02.2023 (n=12,141).
+[240616 23:19:00] I:225:index_articles_by_date_range - 115/593: Indexed 125/125 articles for 23.02.2023 (n=12,266).
+[240616 23:19:01] I:225:index_articles_by_date_range - 116/593: Indexed 150/150 articles for 24.02.2023 (n=12,416).
+[240616 23:19:02] I:225:index_articles_by_date_range - 117/593: Indexed 82/ 82 articles for 25.02.2023 (n=12,498).
+[240616 23:19:02] I:225:index_articles_by_date_range - 118/593: Indexed 71/ 71 articles for 26.02.2023 (n=12,569).
+[240616 23:19:04] I:225:index_articles_by_date_range - 119/593: Indexed 91/ 91 articles for 27.02.2023 (n=12,660).
+[240616 23:19:04] I:225:index_articles_by_date_range - 120/593: Indexed 108/108 articles for 28.02.2023 (n=12,768).
+[240616 23:19:05] I:225:index_articles_by_date_range - 121/593: Indexed 119/119 articles for 01.03.2023 (n=12,887).
+[240616 23:19:06] I:225:index_articles_by_date_range - 122/593: Indexed 120/120 articles for 02.03.2023 (n=13,007).
+[240616 23:19:07] I:225:index_articles_by_date_range - 123/593: Indexed 123/123 articles for 03.03.2023 (n=13,130).
+[240616 23:19:08] I:225:index_articles_by_date_range - 124/593: Indexed 80/ 80 articles for 04.03.2023 (n=13,210).
+[240616 23:19:09] I:225:index_articles_by_date_range - 125/593: Indexed 72/ 72 articles for 05.03.2023 (n=13,282).
+[240616 23:19:10] I:225:index_articles_by_date_range - 126/593: Indexed 106/106 articles for 06.03.2023 (n=13,388).
+[240616 23:19:11] I:225:index_articles_by_date_range - 127/593: Indexed 108/108 articles for 07.03.2023 (n=13,496).
+[240616 23:19:12] I:225:index_articles_by_date_range - 128/593: Indexed 106/106 articles for 08.03.2023 (n=13,602).
+[240616 23:19:13] I:225:index_articles_by_date_range - 129/593: Indexed 127/127 articles for 09.03.2023 (n=13,729).
+[240616 23:19:14] I:225:index_articles_by_date_range - 130/593: Indexed 126/126 articles for 10.03.2023 (n=13,855).
+[240616 23:19:15] I:225:index_articles_by_date_range - 131/593: Indexed 81/ 81 articles for 11.03.2023 (n=13,936).
+[240616 23:19:16] I:225:index_articles_by_date_range - 132/593: Indexed 81/ 81 articles for 12.03.2023 (n=14,017).
+[240616 23:19:17] I:225:index_articles_by_date_range - 133/593: Indexed 118/118 articles for 13.03.2023 (n=14,135).
+[240616 23:19:18] I:225:index_articles_by_date_range - 134/593: Indexed 118/118 articles for 14.03.2023 (n=14,253).
+[240616 23:19:19] I:225:index_articles_by_date_range - 135/593: Indexed 117/117 articles for 15.03.2023 (n=14,370).
+[240616 23:19:20] I:225:index_articles_by_date_range - 136/593: Indexed 132/132 articles for 16.03.2023 (n=14,502).
+[240616 23:19:21] I:225:index_articles_by_date_range - 137/593: Indexed 146/146 articles for 17.03.2023 (n=14,648).
+[240616 23:19:22] I:225:index_articles_by_date_range - 138/593: Indexed 95/ 95 articles for 18.03.2023 (n=14,743).
+[240616 23:19:23] I:225:index_articles_by_date_range - 139/593: Indexed 84/ 84 articles for 19.03.2023 (n=14,827).
+[240616 23:19:24] I:225:index_articles_by_date_range - 140/593: Indexed 111/111 articles for 20.03.2023 (n=14,938).
+[240616 23:19:25] I:225:index_articles_by_date_range - 141/593: Indexed 125/125 articles for 21.03.2023 (n=15,063).
+[240616 23:19:26] I:225:index_articles_by_date_range - 142/593: Indexed 110/110 articles for 22.03.2023 (n=15,173).
+[240616 23:19:26] I:225:index_articles_by_date_range - 143/593: Indexed 118/118 articles for 23.03.2023 (n=15,291).
+[240616 23:19:27] I:225:index_articles_by_date_range - 144/593: Indexed 152/152 articles for 24.03.2023 (n=15,443).
+[240616 23:19:28] I:225:index_articles_by_date_range - 145/593: Indexed 68/ 68 articles for 25.03.2023 (n=15,511).
+[240616 23:19:29] I:225:index_articles_by_date_range - 146/593: Indexed 66/ 66 articles for 26.03.2023 (n=15,577).
+[240616 23:19:30] I:225:index_articles_by_date_range - 147/593: Indexed 97/ 97 articles for 27.03.2023 (n=15,674).
+[240616 23:19:31] I:225:index_articles_by_date_range - 148/593: Indexed 109/109 articles for 28.03.2023 (n=15,783).
+[240616 23:19:32] I:225:index_articles_by_date_range - 149/593: Indexed 105/106 articles for 29.03.2023 (n=15,888).
+[240616 23:19:33] I:225:index_articles_by_date_range - 150/593: Indexed 122/122 articles for 30.03.2023 (n=16,010).
+[240616 23:19:34] I:225:index_articles_by_date_range - 151/593: Indexed 141/141 articles for 31.03.2023 (n=16,151).
+[240616 23:19:35] I:225:index_articles_by_date_range - 152/593: Indexed 70/ 70 articles for 01.04.2023 (n=16,221).
+[240616 23:19:36] I:225:index_articles_by_date_range - 153/593: Indexed 72/ 72 articles for 02.04.2023 (n=16,293).
+[240616 23:19:37] I:225:index_articles_by_date_range - 154/593: Indexed 94/ 94 articles for 03.04.2023 (n=16,387).
+[240616 23:19:38] I:225:index_articles_by_date_range - 155/593: Indexed 110/110 articles for 04.04.2023 (n=16,497).
+[240616 23:19:39] I:225:index_articles_by_date_range - 156/593: Indexed 104/104 articles for 05.04.2023 (n=16,601).
+[240616 23:19:40] I:225:index_articles_by_date_range - 157/593: Indexed 110/110 articles for 06.04.2023 (n=16,711).
+[240616 23:19:41] I:225:index_articles_by_date_range - 158/593: Indexed 93/ 93 articles for 07.04.2023 (n=16,804).
+[240616 23:19:41] I:225:index_articles_by_date_range - 159/593: Indexed 55/ 55 articles for 08.04.2023 (n=16,859).
+[240616 23:19:42] I:225:index_articles_by_date_range - 160/593: Indexed 63/ 63 articles for 09.04.2023 (n=16,922).
+[240616 23:19:43] I:225:index_articles_by_date_range - 161/593: Indexed 67/ 67 articles for 10.04.2023 (n=16,989).
+[240616 23:19:44] I:225:index_articles_by_date_range - 162/593: Indexed 102/102 articles for 11.04.2023 (n=17,091).
+[240616 23:19:45] I:225:index_articles_by_date_range - 163/593: Indexed 107/107 articles for 12.04.2023 (n=17,198).
+[240616 23:19:46] I:225:index_articles_by_date_range - 164/593: Indexed 113/113 articles for 13.04.2023 (n=17,311).
+[240616 23:19:47] I:225:index_articles_by_date_range - 165/593: Indexed 123/124 articles for 14.04.2023 (n=17,434).
+[240616 23:19:48] I:225:index_articles_by_date_range - 166/593: Indexed 80/ 80 articles for 15.04.2023 (n=17,514).
+[240616 23:19:49] I:225:index_articles_by_date_range - 167/593: Indexed 74/ 74 articles for 16.04.2023 (n=17,588).
+[240616 23:19:50] I:225:index_articles_by_date_range - 168/593: Indexed 108/108 articles for 17.04.2023 (n=17,696).
+[240616 23:19:51] I:225:index_articles_by_date_range - 169/593: Indexed 105/105 articles for 18.04.2023 (n=17,801).
+[240616 23:19:52] I:225:index_articles_by_date_range - 170/593: Indexed 121/121 articles for 19.04.2023 (n=17,922).
+[240616 23:19:53] I:225:index_articles_by_date_range - 171/593: Indexed 120/120 articles for 20.04.2023 (n=18,042).
+[240616 23:19:54] I:225:index_articles_by_date_range - 172/593: Indexed 140/140 articles for 21.04.2023 (n=18,182).
+[240616 23:19:54] I:225:index_articles_by_date_range - 173/593: Indexed 71/ 71 articles for 22.04.2023 (n=18,253).
+[240616 23:19:56] I:225:index_articles_by_date_range - 174/593: Indexed 73/ 73 articles for 23.04.2023 (n=18,326).
+[240616 23:19:57] I:225:index_articles_by_date_range - 175/593: Indexed 114/114 articles for 24.04.2023 (n=18,440).
+[240616 23:19:58] I:225:index_articles_by_date_range - 176/593: Indexed 121/121 articles for 25.04.2023 (n=18,561).
+[240616 23:19:59] I:225:index_articles_by_date_range - 177/593: Indexed 108/108 articles for 26.04.2023 (n=18,669).
+[240616 23:20:00] I:225:index_articles_by_date_range - 178/593: Indexed 103/105 articles for 27.04.2023 (n=18,772).
+[240616 23:20:01] I:225:index_articles_by_date_range - 179/593: Indexed 114/114 articles for 28.04.2023 (n=18,886).
+[240616 23:20:02] I:225:index_articles_by_date_range - 180/593: Indexed 75/ 75 articles for 29.04.2023 (n=18,961).
+[240616 23:20:03] I:225:index_articles_by_date_range - 181/593: Indexed 74/ 74 articles for 30.04.2023 (n=19,035).
+[240616 23:20:04] I:225:index_articles_by_date_range - 182/593: Indexed 90/ 90 articles for 01.05.2023 (n=19,125).
+[240616 23:20:05] I:225:index_articles_by_date_range - 183/593: Indexed 97/ 97 articles for 02.05.2023 (n=19,222).
+[240616 23:20:07] I:225:index_articles_by_date_range - 184/593: Indexed 118/118 articles for 03.05.2023 (n=19,340).
+[240616 23:20:08] I:225:index_articles_by_date_range - 185/593: Indexed 109/109 articles for 04.05.2023 (n=19,449).
+[240616 23:20:09] I:225:index_articles_by_date_range - 186/593: Indexed 129/129 articles for 05.05.2023 (n=19,578).
+[240616 23:20:10] I:225:index_articles_by_date_range - 187/593: Indexed 85/ 85 articles for 06.05.2023 (n=19,663).
+[240616 23:20:11] I:225:index_articles_by_date_range - 188/593: Indexed 75/ 75 articles for 07.05.2023 (n=19,738).
+[240616 23:20:11] I:225:index_articles_by_date_range - 189/593: Indexed 96/ 96 articles for 08.05.2023 (n=19,834).
+[240616 23:20:12] I:225:index_articles_by_date_range - 190/593: Indexed 102/102 articles for 09.05.2023 (n=19,936).
+[240616 23:20:13] I:225:index_articles_by_date_range - 191/593: Indexed 120/120 articles for 10.05.2023 (n=20,056).
+[240616 23:20:14] I:225:index_articles_by_date_range - 192/593: Indexed 124/124 articles for 11.05.2023 (n=20,180).
+[240616 23:20:15] I:225:index_articles_by_date_range - 193/593: Indexed 137/137 articles for 12.05.2023 (n=20,317).
+[240616 23:20:16] I:225:index_articles_by_date_range - 194/593: Indexed 72/ 72 articles for 13.05.2023 (n=20,389).
+[240616 23:20:17] I:225:index_articles_by_date_range - 195/593: Indexed 88/ 88 articles for 14.05.2023 (n=20,477).
+[240616 23:20:18] I:225:index_articles_by_date_range - 196/593: Indexed 120/120 articles for 15.05.2023 (n=20,597).
+[240616 23:20:19] I:225:index_articles_by_date_range - 197/593: Indexed 94/ 94 articles for 16.05.2023 (n=20,691).
+[240616 23:20:20] I:225:index_articles_by_date_range - 198/593: Indexed 107/107 articles for 17.05.2023 (n=20,798).
+[240616 23:20:21] I:225:index_articles_by_date_range - 199/593: Indexed 101/101 articles for 18.05.2023 (n=20,899).
+[240616 23:20:22] I:225:index_articles_by_date_range - 200/593: Indexed 127/127 articles for 19.05.2023 (n=21,026).
+[240616 23:20:23] I:225:index_articles_by_date_range - 201/593: Indexed 67/ 67 articles for 20.05.2023 (n=21,093).
+[240616 23:20:23] I:225:index_articles_by_date_range - 202/593: Indexed 70/ 70 articles for 21.05.2023 (n=21,163).
+[240616 23:20:24] I:225:index_articles_by_date_range - 203/593: Indexed 95/ 95 articles for 22.05.2023 (n=21,258).
+[240616 23:20:25] I:225:index_articles_by_date_range - 204/593: Indexed 92/ 92 articles for 23.05.2023 (n=21,350).
+[240616 23:20:26] I:225:index_articles_by_date_range - 205/593: Indexed 99/ 99 articles for 24.05.2023 (n=21,449).
+[240616 23:20:27] I:225:index_articles_by_date_range - 206/593: Indexed 116/116 articles for 25.05.2023 (n=21,565).
+[240616 23:20:28] I:225:index_articles_by_date_range - 207/593: Indexed 126/126 articles for 26.05.2023 (n=21,691).
+[240616 23:20:28] I:225:index_articles_by_date_range - 208/593: Indexed 86/ 86 articles for 27.05.2023 (n=21,777).
+[240616 23:20:29] I:225:index_articles_by_date_range - 209/593: Indexed 78/ 78 articles for 28.05.2023 (n=21,855).
+[240616 23:20:30] I:225:index_articles_by_date_range - 210/593: Indexed 69/ 69 articles for 29.05.2023 (n=21,924).
+[240616 23:20:31] I:225:index_articles_by_date_range - 211/593: Indexed 93/ 93 articles for 30.05.2023 (n=22,017).
+[240616 23:20:32] I:225:index_articles_by_date_range - 212/593: Indexed 95/ 95 articles for 31.05.2023 (n=22,112).
+[240616 23:20:33] I:225:index_articles_by_date_range - 213/593: Indexed 110/110 articles for 01.06.2023 (n=22,222).
+[240616 23:20:34] I:225:index_articles_by_date_range - 214/593: Indexed 130/130 articles for 02.06.2023 (n=22,352).
+[240616 23:20:35] I:225:index_articles_by_date_range - 215/593: Indexed 77/ 77 articles for 03.06.2023 (n=22,429).
+[240616 23:20:36] I:225:index_articles_by_date_range - 216/593: Indexed 70/ 70 articles for 04.06.2023 (n=22,499).
+[240616 23:20:37] I:225:index_articles_by_date_range - 217/593: Indexed 94/ 94 articles for 05.06.2023 (n=22,593).
+[240616 23:20:38] I:225:index_articles_by_date_range - 218/593: Indexed 94/ 94 articles for 06.06.2023 (n=22,687).
+[240616 23:20:39] I:225:index_articles_by_date_range - 219/593: Indexed 108/109 articles for 07.06.2023 (n=22,795).
+[240616 23:20:39] I:225:index_articles_by_date_range - 220/593: Indexed 97/ 97 articles for 08.06.2023 (n=22,892).
+[240616 23:20:40] I:225:index_articles_by_date_range - 221/593: Indexed 119/119 articles for 09.06.2023 (n=23,011).
+[240616 23:20:41] I:225:index_articles_by_date_range - 222/593: Indexed 77/ 77 articles for 10.06.2023 (n=23,088).
+[240616 23:20:42] I:225:index_articles_by_date_range - 223/593: Indexed 61/ 61 articles for 11.06.2023 (n=23,149).
+[240616 23:20:43] I:225:index_articles_by_date_range - 224/593: Indexed 102/102 articles for 12.06.2023 (n=23,251).
+[240616 23:20:44] I:225:index_articles_by_date_range - 225/593: Indexed 95/ 95 articles for 13.06.2023 (n=23,346).
+[240616 23:20:45] I:225:index_articles_by_date_range - 226/593: Indexed 115/115 articles for 14.06.2023 (n=23,461).
+[240616 23:20:46] I:225:index_articles_by_date_range - 227/593: Indexed 121/121 articles for 15.06.2023 (n=23,582).
+[240616 23:20:46] I:225:index_articles_by_date_range - 228/593: Indexed 126/126 articles for 16.06.2023 (n=23,708).
+[240616 23:20:47] I:225:index_articles_by_date_range - 229/593: Indexed 77/ 77 articles for 17.06.2023 (n=23,785).
+[240616 23:20:48] I:225:index_articles_by_date_range - 230/593: Indexed 71/ 71 articles for 18.06.2023 (n=23,856).
+[240616 23:20:49] I:225:index_articles_by_date_range - 231/593: Indexed 101/101 articles for 19.06.2023 (n=23,957).
+[240616 23:20:50] I:225:index_articles_by_date_range - 232/593: Indexed 102/102 articles for 20.06.2023 (n=24,059).
+[240616 23:20:51] I:225:index_articles_by_date_range - 233/593: Indexed 98/ 98 articles for 21.06.2023 (n=24,157).
+[240616 23:20:52] I:225:index_articles_by_date_range - 234/593: Indexed 112/112 articles for 22.06.2023 (n=24,269).
+[240616 23:20:53] I:225:index_articles_by_date_range - 235/593: Indexed 137/137 articles for 23.06.2023 (n=24,406).
+[240616 23:20:54] I:225:index_articles_by_date_range - 236/593: Indexed 64/ 64 articles for 24.06.2023 (n=24,470).
+[240616 23:20:55] I:225:index_articles_by_date_range - 237/593: Indexed 75/ 75 articles for 25.06.2023 (n=24,545).
+[240616 23:20:56] I:225:index_articles_by_date_range - 238/593: Indexed 86/ 86 articles for 26.06.2023 (n=24,631).
+[240616 23:20:57] I:225:index_articles_by_date_range - 239/593: Indexed 101/101 articles for 27.06.2023 (n=24,732).
+[240616 23:20:58] I:225:index_articles_by_date_range - 240/593: Indexed 101/101 articles for 28.06.2023 (n=24,833).
+[240616 23:20:59] I:225:index_articles_by_date_range - 241/593: Indexed 124/124 articles for 29.06.2023 (n=24,957).
+[240616 23:21:00] I:225:index_articles_by_date_range - 242/593: Indexed 127/127 articles for 30.06.2023 (n=25,084).
+[240616 23:21:00] I:225:index_articles_by_date_range - 243/593: Indexed 76/ 76 articles for 01.07.2023 (n=25,160).
+[240616 23:21:01] I:225:index_articles_by_date_range - 244/593: Indexed 60/ 60 articles for 02.07.2023 (n=25,220).
+[240616 23:21:02] I:225:index_articles_by_date_range - 245/593: Indexed 101/101 articles for 03.07.2023 (n=25,321).
+[240616 23:21:03] I:225:index_articles_by_date_range - 246/593: Indexed 107/107 articles for 04.07.2023 (n=25,428).
+[240616 23:21:04] I:225:index_articles_by_date_range - 247/593: Indexed 103/103 articles for 05.07.2023 (n=25,531).
+[240616 23:21:05] I:225:index_articles_by_date_range - 248/593: Indexed 106/106 articles for 06.07.2023 (n=25,637).
+[240616 23:21:06] I:225:index_articles_by_date_range - 249/593: Indexed 132/132 articles for 07.07.2023 (n=25,769).
+[240616 23:21:07] I:225:index_articles_by_date_range - 250/593: Indexed 70/ 70 articles for 08.07.2023 (n=25,839).
+[240616 23:21:08] I:225:index_articles_by_date_range - 251/593: Indexed 74/ 74 articles for 09.07.2023 (n=25,913).
+[240616 23:21:09] I:225:index_articles_by_date_range - 252/593: Indexed 99/ 99 articles for 10.07.2023 (n=26,012).
+[240616 23:21:10] I:225:index_articles_by_date_range - 253/593: Indexed 109/109 articles for 11.07.2023 (n=26,121).
+[240616 23:21:11] I:225:index_articles_by_date_range - 254/593: Indexed 111/112 articles for 12.07.2023 (n=26,232).
+[240616 23:21:12] I:225:index_articles_by_date_range - 255/593: Indexed 115/115 articles for 13.07.2023 (n=26,347).
+[240616 23:21:12] I:225:index_articles_by_date_range - 256/593: Indexed 127/127 articles for 14.07.2023 (n=26,474).
+[240616 23:21:13] I:225:index_articles_by_date_range - 257/593: Indexed 72/ 72 articles for 15.07.2023 (n=26,546).
+[240616 23:21:14] I:225:index_articles_by_date_range - 258/593: Indexed 66/ 66 articles for 16.07.2023 (n=26,612).
+[240616 23:21:15] I:225:index_articles_by_date_range - 259/593: Indexed 101/101 articles for 17.07.2023 (n=26,713).
+[240616 23:21:16] I:225:index_articles_by_date_range - 260/593: Indexed 101/101 articles for 18.07.2023 (n=26,814).
+[240616 23:21:17] I:225:index_articles_by_date_range - 261/593: Indexed 112/112 articles for 19.07.2023 (n=26,926).
+[240616 23:21:18] I:225:index_articles_by_date_range - 262/593: Indexed 105/105 articles for 20.07.2023 (n=27,031).
+[240616 23:21:19] I:225:index_articles_by_date_range - 263/593: Indexed 127/127 articles for 21.07.2023 (n=27,158).
+[240616 23:21:20] I:225:index_articles_by_date_range - 264/593: Indexed 74/ 74 articles for 22.07.2023 (n=27,232).
+[240616 23:21:21] I:225:index_articles_by_date_range - 265/593: Indexed 79/ 79 articles for 23.07.2023 (n=27,311).
+[240616 23:21:22] WARNING:36:_wrapper - Exception while executing index_articles_by_date_range: AssertionError.
+[240616 23:21:22] I:37:_wrapper - Retrying in 100 seconds...
+[240616 23:23:02] I:185:index_articles_by_date_range - Start scraping articles for 328 days (01.11.22 - 15.06.24). 265 days already indexed.
+[240616 23:23:03] WARNING:36:_wrapper - Exception while executing index_articles_by_date_range: AssertionError.
+[240616 23:23:03] I:37:_wrapper - Retrying in 100 seconds...
+[240616 23:24:43] I:185:index_articles_by_date_range - Start scraping articles for 328 days (01.11.22 - 15.06.24). 265 days already indexed.
+[240616 23:24:44] WARNING:36:_wrapper - Exception while executing index_articles_by_date_range: AssertionError.
+[240616 23:24:44] I:37:_wrapper - Retrying in 100 seconds...
+[240616 23:26:05] I:49:__init__ - Initializing de_spiegel scraper.
+[240616 23:26:05] I:130:_load_table - Load database from spiegel.db.
+[240616 23:26:05] I:158:_load_table - Loaded 27,311 articles from database. 0.0% scraped and 0.0% processed.
+[240616 23:26:05] I:185:index_articles_by_date_range - Start scraping articles for 328 days (01.11.22 - 15.06.24). 265 days already indexed.
+[240616 23:26:05] WARNING:36:_wrapper - Exception while executing index_articles_by_date_range: AssertionError.
+[240616 23:26:05] I:37:_wrapper - Retrying in 100 seconds...
+[240616 23:26:27] I:49:__init__ - Initializing de_spiegel scraper.
+[240616 23:26:27] I:130:_load_table - Load database from spiegel.db.
+[240616 23:26:27] I:158:_load_table - Loaded 0 articles from database. 0.0% scraped and 0.0% processed.
+[240616 23:26:27] I:185:index_articles_by_date_range - Start scraping articles for 593 days (01.11.22 - 15.06.24). 0 days already indexed.
+[240616 23:26:28] I:225:index_articles_by_date_range - 1/593: Indexed 111/111 articles for 01.11.2022 (n=111).
+[240616 23:26:29] I:225:index_articles_by_date_range - 2/593: Indexed 120/120 articles for 02.11.2022 (n=231).
+[240616 23:26:30] I:225:index_articles_by_date_range - 3/593: Indexed 128/128 articles for 03.11.2022 (n=359).
+[240616 23:26:31] I:225:index_articles_by_date_range - 4/593: Indexed 157/157 articles for 04.11.2022 (n=516).
+[240616 23:26:32] I:225:index_articles_by_date_range - 5/593: Indexed 73/ 73 articles for 05.11.2022 (n=589).
+[240616 23:26:32] I:225:index_articles_by_date_range - 6/593: Indexed 72/ 72 articles for 06.11.2022 (n=661).
+[240616 23:26:32] I:225:index_articles_by_date_range - 7/593: Indexed 119/119 articles for 07.11.2022 (n=780).
+[240616 23:26:33] I:225:index_articles_by_date_range - 8/593: Indexed 113/113 articles for 08.11.2022 (n=893).
+[240616 23:26:33] I:225:index_articles_by_date_range - 9/593: Indexed 133/133 articles for 09.11.2022 (n=1,026).
+[240616 23:26:34] I:225:index_articles_by_date_range - 10/593: Indexed 122/122 articles for 10.11.2022 (n=1,148).
+[240616 23:26:35] I:225:index_articles_by_date_range - 11/593: Indexed 159/159 articles for 11.11.2022 (n=1,307).
+[240616 23:26:36] I:225:index_articles_by_date_range - 12/593: Indexed 73/ 73 articles for 12.11.2022 (n=1,380).
+[240616 23:26:36] I:225:index_articles_by_date_range - 13/593: Indexed 71/ 71 articles for 13.11.2022 (n=1,451).
+[240616 23:26:37] I:225:index_articles_by_date_range - 14/593: Indexed 108/108 articles for 14.11.2022 (n=1,559).
+[240616 23:26:38] I:225:index_articles_by_date_range - 15/593: Indexed 104/104 articles for 15.11.2022 (n=1,663).
+[240616 23:26:39] I:225:index_articles_by_date_range - 16/593: Indexed 127/127 articles for 16.11.2022 (n=1,790).
+[240616 23:26:39] I:225:index_articles_by_date_range - 17/593: Indexed 135/135 articles for 17.11.2022 (n=1,925).
+[240616 23:26:39] I:225:index_articles_by_date_range - 18/593: Indexed 165/165 articles for 18.11.2022 (n=2,090).
+[240616 23:26:40] I:225:index_articles_by_date_range - 19/593: Indexed 61/ 61 articles for 19.11.2022 (n=2,151).
+[240616 23:26:41] I:225:index_articles_by_date_range - 20/593: Indexed 81/ 81 articles for 20.11.2022 (n=2,232).
+[240616 23:26:42] I:225:index_articles_by_date_range - 21/593: Indexed 99/ 99 articles for 21.11.2022 (n=2,331).
+[240616 23:26:42] I:225:index_articles_by_date_range - 22/593: Indexed 120/120 articles for 22.11.2022 (n=2,451).
+[240616 23:26:43] I:225:index_articles_by_date_range - 23/593: Indexed 121/121 articles for 23.11.2022 (n=2,572).
+[240616 23:26:44] I:225:index_articles_by_date_range - 24/593: Indexed 132/132 articles for 24.11.2022 (n=2,704).
+[240616 23:26:44] I:225:index_articles_by_date_range - 25/593: Indexed 137/137 articles for 25.11.2022 (n=2,841).
+[240616 23:26:45] I:225:index_articles_by_date_range - 26/593: Indexed 76/ 77 articles for 26.11.2022 (n=2,917).
+[240616 23:26:46] I:225:index_articles_by_date_range - 27/593: Indexed 76/ 76 articles for 27.11.2022 (n=2,993).
+[240616 23:26:46] I:225:index_articles_by_date_range - 28/593: Indexed 101/102 articles for 28.11.2022 (n=3,094).
+[240616 23:26:47] I:225:index_articles_by_date_range - 29/593: Indexed 111/111 articles for 29.11.2022 (n=3,205).
+[240616 23:26:48] I:225:index_articles_by_date_range - 30/593: Indexed 114/114 articles for 30.11.2022 (n=3,319).
+[240616 23:26:49] I:225:index_articles_by_date_range - 31/593: Indexed 122/122 articles for 01.12.2022 (n=3,441).
+[240616 23:26:49] I:225:index_articles_by_date_range - 32/593: Indexed 146/146 articles for 02.12.2022 (n=3,587).
+[240616 23:26:50] I:225:index_articles_by_date_range - 33/593: Indexed 83/ 83 articles for 03.12.2022 (n=3,670).
+[240616 23:26:50] I:225:index_articles_by_date_range - 34/593: Indexed 77/ 77 articles for 04.12.2022 (n=3,747).
+[240616 23:26:51] I:225:index_articles_by_date_range - 35/593: Indexed 125/125 articles for 05.12.2022 (n=3,872).
+[240616 23:26:52] I:225:index_articles_by_date_range - 36/593: Indexed 118/118 articles for 06.12.2022 (n=3,990).
+[240616 23:26:53] I:225:index_articles_by_date_range - 37/593: Indexed 122/122 articles for 07.12.2022 (n=4,112).
+[240616 23:26:54] I:225:index_articles_by_date_range - 38/593: Indexed 102/102 articles for 08.12.2022 (n=4,214).
+[240616 23:26:55] I:225:index_articles_by_date_range - 39/593: Indexed 151/151 articles for 09.12.2022 (n=4,365).
+[240616 23:26:55] I:225:index_articles_by_date_range - 40/593: Indexed 69/ 69 articles for 10.12.2022 (n=4,434).
+[240616 23:26:56] I:225:index_articles_by_date_range - 41/593: Indexed 63/ 63 articles for 11.12.2022 (n=4,497).
+[240616 23:26:57] I:225:index_articles_by_date_range - 42/593: Indexed 98/ 98 articles for 12.12.2022 (n=4,595).
+[240616 23:26:57] I:225:index_articles_by_date_range - 43/593: Indexed 119/119 articles for 13.12.2022 (n=4,714).
+[240616 23:26:58] I:225:index_articles_by_date_range - 44/593: Indexed 114/114 articles for 14.12.2022 (n=4,828).
+[240616 23:26:59] I:225:index_articles_by_date_range - 45/593: Indexed 119/119 articles for 15.12.2022 (n=4,947).
+[240616 23:27:00] I:225:index_articles_by_date_range - 46/593: Indexed 133/133 articles for 16.12.2022 (n=5,080).
+[240616 23:27:00] I:225:index_articles_by_date_range - 47/593: Indexed 77/ 77 articles for 17.12.2022 (n=5,157).
+[240616 23:27:00] I:225:index_articles_by_date_range - 48/593: Indexed 69/ 69 articles for 18.12.2022 (n=5,226).
+[240616 23:27:01] I:225:index_articles_by_date_range - 49/593: Indexed 100/100 articles for 19.12.2022 (n=5,326).
+[240616 23:27:02] I:225:index_articles_by_date_range - 50/593: Indexed 107/107 articles for 20.12.2022 (n=5,433).
+[240616 23:27:03] I:225:index_articles_by_date_range - 51/593: Indexed 107/107 articles for 21.12.2022 (n=5,540).
+[240616 23:27:04] I:225:index_articles_by_date_range - 52/593: Indexed 126/126 articles for 22.12.2022 (n=5,666).
+[240616 23:27:04] I:225:index_articles_by_date_range - 53/593: Indexed 86/ 86 articles for 23.12.2022 (n=5,752).
+[240616 23:27:05] I:225:index_articles_by_date_range - 54/593: Indexed 56/ 56 articles for 24.12.2022 (n=5,808).
+[240616 23:27:06] I:225:index_articles_by_date_range - 55/593: Indexed 52/ 52 articles for 25.12.2022 (n=5,860).
+[240616 23:27:07] I:225:index_articles_by_date_range - 56/593: Indexed 84/ 84 articles for 26.12.2022 (n=5,944).
+[240616 23:27:08] I:225:index_articles_by_date_range - 57/593: Indexed 90/ 90 articles for 27.12.2022 (n=6,034).
+[240616 23:27:09] I:225:index_articles_by_date_range - 58/593: Indexed 104/104 articles for 28.12.2022 (n=6,138).
+[240616 23:27:10] I:225:index_articles_by_date_range - 59/593: Indexed 157/157 articles for 29.12.2022 (n=6,295).
+[240616 23:27:11] I:225:index_articles_by_date_range - 60/593: Indexed 105/105 articles for 30.12.2022 (n=6,400).
+[240616 23:27:11] I:225:index_articles_by_date_range - 61/593: Indexed 67/ 67 articles for 31.12.2022 (n=6,467).
+[240616 23:27:12] I:225:index_articles_by_date_range - 62/593: Indexed 58/ 58 articles for 01.01.2023 (n=6,525).
+[240616 23:27:12] I:225:index_articles_by_date_range - 63/593: Indexed 98/ 98 articles for 02.01.2023 (n=6,623).
+[240616 23:27:13] I:225:index_articles_by_date_range - 64/593: Indexed 99/ 99 articles for 03.01.2023 (n=6,722).
+[240616 23:27:14] I:225:index_articles_by_date_range - 65/593: Indexed 95/ 95 articles for 04.01.2023 (n=6,817).
+[240616 23:27:15] I:225:index_articles_by_date_range - 66/593: Indexed 113/113 articles for 05.01.2023 (n=6,930).
+[240616 23:27:16] I:225:index_articles_by_date_range - 67/593: Indexed 131/131 articles for 06.01.2023 (n=7,061).
+[240616 23:27:17] I:225:index_articles_by_date_range - 68/593: Indexed 74/ 74 articles for 07.01.2023 (n=7,135).
+[240616 23:27:18] I:225:index_articles_by_date_range - 69/593: Indexed 70/ 70 articles for 08.01.2023 (n=7,205).
+[240616 23:27:19] I:225:index_articles_by_date_range - 70/593: Indexed 95/ 95 articles for 09.01.2023 (n=7,300).
+[240616 23:27:20] I:225:index_articles_by_date_range - 71/593: Indexed 110/110 articles for 10.01.2023 (n=7,410).
+[240616 23:27:21] I:225:index_articles_by_date_range - 72/593: Indexed 110/110 articles for 11.01.2023 (n=7,520).
+[240616 23:27:21] I:225:index_articles_by_date_range - 73/593: Indexed 123/123 articles for 12.01.2023 (n=7,643).
+[240616 23:27:22] I:225:index_articles_by_date_range - 74/593: Indexed 131/131 articles for 13.01.2023 (n=7,774).
+[240616 23:27:23] I:225:index_articles_by_date_range - 75/593: Indexed 77/ 77 articles for 14.01.2023 (n=7,851).
+[240616 23:27:24] I:225:index_articles_by_date_range - 76/593: Indexed 67/ 67 articles for 15.01.2023 (n=7,918).
+[240616 23:27:24] I:225:index_articles_by_date_range - 77/593: Indexed 106/106 articles for 16.01.2023 (n=8,024).
+[240616 23:27:25] I:225:index_articles_by_date_range - 78/593: Indexed 127/127 articles for 17.01.2023 (n=8,151).
+[240616 23:27:27] I:225:index_articles_by_date_range - 79/593: Indexed 112/112 articles for 18.01.2023 (n=8,263).
+[240616 23:27:28] I:225:index_articles_by_date_range - 80/593: Indexed 134/134 articles for 19.01.2023 (n=8,397).
+[240616 23:27:29] I:225:index_articles_by_date_range - 81/593: Indexed 175/175 articles for 20.01.2023 (n=8,572).
+[240616 23:27:30] I:225:index_articles_by_date_range - 82/593: Indexed 73/ 73 articles for 21.01.2023 (n=8,645).
+[240616 23:27:31] I:225:index_articles_by_date_range - 83/593: Indexed 79/ 79 articles for 22.01.2023 (n=8,724).
+[240616 23:27:32] I:225:index_articles_by_date_range - 84/593: Indexed 114/114 articles for 23.01.2023 (n=8,838).
+[240616 23:27:32] I:225:index_articles_by_date_range - 85/593: Indexed 109/109 articles for 24.01.2023 (n=8,947).
+[240616 23:27:33] I:225:index_articles_by_date_range - 86/593: Indexed 116/116 articles for 25.01.2023 (n=9,063).
+[240616 23:27:34] I:225:index_articles_by_date_range - 87/593: Indexed 133/133 articles for 26.01.2023 (n=9,196).
+[240616 23:27:35] I:225:index_articles_by_date_range - 88/593: Indexed 151/151 articles for 27.01.2023 (n=9,347).
+[240616 23:27:36] I:225:index_articles_by_date_range - 89/593: Indexed 62/ 62 articles for 28.01.2023 (n=9,409).
+[240616 23:27:37] I:225:index_articles_by_date_range - 90/593: Indexed 78/ 78 articles for 29.01.2023 (n=9,487).
+[240616 23:27:38] I:225:index_articles_by_date_range - 91/593: Indexed 118/118 articles for 30.01.2023 (n=9,605).
+[240616 23:27:39] I:225:index_articles_by_date_range - 92/593: Indexed 126/126 articles for 31.01.2023 (n=9,731).
+[240616 23:27:39] I:225:index_articles_by_date_range - 93/593: Indexed 112/112 articles for 01.02.2023 (n=9,843).
+[240616 23:27:40] I:225:index_articles_by_date_range - 94/593: Indexed 103/103 articles for 02.02.2023 (n=9,946).
+[240616 23:27:40] I:225:index_articles_by_date_range - 95/593: Indexed 126/126 articles for 03.02.2023 (n=10,072).
+[240616 23:27:41] I:225:index_articles_by_date_range - 96/593: Indexed 71/ 71 articles for 04.02.2023 (n=10,143).
+[240616 23:27:41] I:225:index_articles_by_date_range - 97/593: Indexed 74/ 74 articles for 05.02.2023 (n=10,217).
+[240616 23:27:42] I:225:index_articles_by_date_range - 98/593: Indexed 113/113 articles for 06.02.2023 (n=10,330).
+[240616 23:27:43] I:225:index_articles_by_date_range - 99/593: Indexed 122/122 articles for 07.02.2023 (n=10,452).
+[240616 23:27:44] I:225:index_articles_by_date_range - 100/593: Indexed 115/115 articles for 08.02.2023 (n=10,567).
+[240616 23:27:45] I:225:index_articles_by_date_range - 101/593: Indexed 117/117 articles for 09.02.2023 (n=10,684).
+[240616 23:27:46] I:225:index_articles_by_date_range - 102/593: Indexed 147/147 articles for 10.02.2023 (n=10,831).
+[240616 23:27:47] I:225:index_articles_by_date_range - 103/593: Indexed 79/ 79 articles for 11.02.2023 (n=10,910).
+[240616 23:27:48] I:225:index_articles_by_date_range - 104/593: Indexed 95/ 95 articles for 12.02.2023 (n=11,005).
+[240616 23:27:48] I:225:index_articles_by_date_range - 105/593: Indexed 115/115 articles for 13.02.2023 (n=11,120).
+[240616 23:27:49] I:225:index_articles_by_date_range - 106/593: Indexed 125/125 articles for 14.02.2023 (n=11,245).
+[240616 23:27:50] I:225:index_articles_by_date_range - 107/593: Indexed 127/127 articles for 15.02.2023 (n=11,372).
+[240616 23:27:51] I:225:index_articles_by_date_range - 108/593: Indexed 120/120 articles for 16.02.2023 (n=11,492).
+[240616 23:27:52] I:225:index_articles_by_date_range - 109/593: Indexed 151/151 articles for 17.02.2023 (n=11,643).
+[240616 23:27:53] I:225:index_articles_by_date_range - 110/593: Indexed 81/ 81 articles for 18.02.2023 (n=11,724).
+[240616 23:27:53] I:225:index_articles_by_date_range - 111/593: Indexed 75/ 75 articles for 19.02.2023 (n=11,799).
+[240616 23:27:54] I:225:index_articles_by_date_range - 112/593: Indexed 99/ 99 articles for 20.02.2023 (n=11,898).
+[240616 23:27:55] I:225:index_articles_by_date_range - 113/593: Indexed 124/124 articles for 21.02.2023 (n=12,022).
+[240616 23:27:55] I:225:index_articles_by_date_range - 114/593: Indexed 119/119 articles for 22.02.2023 (n=12,141).
+[240616 23:27:56] I:225:index_articles_by_date_range - 115/593: Indexed 125/125 articles for 23.02.2023 (n=12,266).
+[240616 23:27:57] I:225:index_articles_by_date_range - 116/593: Indexed 150/150 articles for 24.02.2023 (n=12,416).
+[240616 23:27:58] I:225:index_articles_by_date_range - 117/593: Indexed 82/ 82 articles for 25.02.2023 (n=12,498).
+[240616 23:27:58] I:225:index_articles_by_date_range - 118/593: Indexed 71/ 71 articles for 26.02.2023 (n=12,569).
+[240616 23:27:59] I:225:index_articles_by_date_range - 119/593: Indexed 91/ 91 articles for 27.02.2023 (n=12,660).
+[240616 23:27:59] I:225:index_articles_by_date_range - 120/593: Indexed 108/108 articles for 28.02.2023 (n=12,768).
+[240616 23:28:00] I:225:index_articles_by_date_range - 121/593: Indexed 119/119 articles for 01.03.2023 (n=12,887).
+[240616 23:28:01] I:225:index_articles_by_date_range - 122/593: Indexed 120/120 articles for 02.03.2023 (n=13,007).
+[240616 23:28:01] I:225:index_articles_by_date_range - 123/593: Indexed 123/123 articles for 03.03.2023 (n=13,130).
+[240616 23:28:02] I:225:index_articles_by_date_range - 124/593: Indexed 80/ 80 articles for 04.03.2023 (n=13,210).
+[240616 23:28:03] I:225:index_articles_by_date_range - 125/593: Indexed 72/ 72 articles for 05.03.2023 (n=13,282).
+[240616 23:28:04] I:225:index_articles_by_date_range - 126/593: Indexed 106/106 articles for 06.03.2023 (n=13,388).
+[240616 23:28:05] I:225:index_articles_by_date_range - 127/593: Indexed 108/108 articles for 07.03.2023 (n=13,496).
+[240616 23:28:06] I:225:index_articles_by_date_range - 128/593: Indexed 106/106 articles for 08.03.2023 (n=13,602).
+[240616 23:28:07] I:225:index_articles_by_date_range - 129/593: Indexed 127/127 articles for 09.03.2023 (n=13,729).
+[240616 23:28:08] I:225:index_articles_by_date_range - 130/593: Indexed 126/126 articles for 10.03.2023 (n=13,855).
+[240616 23:28:09] I:225:index_articles_by_date_range - 131/593: Indexed 81/ 81 articles for 11.03.2023 (n=13,936).
+[240616 23:28:09] I:225:index_articles_by_date_range - 132/593: Indexed 81/ 81 articles for 12.03.2023 (n=14,017).
+[240616 23:28:10] I:225:index_articles_by_date_range - 133/593: Indexed 118/118 articles for 13.03.2023 (n=14,135).
+[240616 23:28:10] I:225:index_articles_by_date_range - 134/593: Indexed 118/118 articles for 14.03.2023 (n=14,253).
+[240616 23:28:11] I:225:index_articles_by_date_range - 135/593: Indexed 117/117 articles for 15.03.2023 (n=14,370).
+[240616 23:28:13] I:225:index_articles_by_date_range - 136/593: Indexed 132/132 articles for 16.03.2023 (n=14,502).
+[240616 23:28:14] I:225:index_articles_by_date_range - 137/593: Indexed 146/146 articles for 17.03.2023 (n=14,648).
+[240616 23:28:14] I:225:index_articles_by_date_range - 138/593: Indexed 95/ 95 articles for 18.03.2023 (n=14,743).
+[240616 23:28:15] I:225:index_articles_by_date_range - 139/593: Indexed 84/ 84 articles for 19.03.2023 (n=14,827).
+[240616 23:28:16] I:225:index_articles_by_date_range - 140/593: Indexed 111/111 articles for 20.03.2023 (n=14,938).
+[240616 23:28:17] I:225:index_articles_by_date_range - 141/593: Indexed 125/125 articles for 21.03.2023 (n=15,063).
+[240616 23:28:17] I:225:index_articles_by_date_range - 142/593: Indexed 110/110 articles for 22.03.2023 (n=15,173).
+[240616 23:28:18] I:225:index_articles_by_date_range - 143/593: Indexed 118/118 articles for 23.03.2023 (n=15,291).
+[240616 23:28:19] I:225:index_articles_by_date_range - 144/593: Indexed 152/152 articles for 24.03.2023 (n=15,443).
+[240616 23:28:20] I:225:index_articles_by_date_range - 145/593: Indexed 68/ 68 articles for 25.03.2023 (n=15,511).
+[240616 23:28:20] I:225:index_articles_by_date_range - 146/593: Indexed 66/ 66 articles for 26.03.2023 (n=15,577).
+[240616 23:28:21] I:225:index_articles_by_date_range - 147/593: Indexed 97/ 97 articles for 27.03.2023 (n=15,674).
+[240616 23:28:22] I:225:index_articles_by_date_range - 148/593: Indexed 109/109 articles for 28.03.2023 (n=15,783).
+[240616 23:28:23] I:225:index_articles_by_date_range - 149/593: Indexed 105/106 articles for 29.03.2023 (n=15,888).
+[240616 23:28:23] I:225:index_articles_by_date_range - 150/593: Indexed 122/122 articles for 30.03.2023 (n=16,010).
+[240616 23:28:24] I:225:index_articles_by_date_range - 151/593: Indexed 141/141 articles for 31.03.2023 (n=16,151).
+[240616 23:28:25] I:225:index_articles_by_date_range - 152/593: Indexed 70/ 70 articles for 01.04.2023 (n=16,221).
+[240616 23:28:25] I:225:index_articles_by_date_range - 153/593: Indexed 72/ 72 articles for 02.04.2023 (n=16,293).
+[240616 23:28:26] I:225:index_articles_by_date_range - 154/593: Indexed 94/ 94 articles for 03.04.2023 (n=16,387).
+[240616 23:28:26] I:225:index_articles_by_date_range - 155/593: Indexed 110/110 articles for 04.04.2023 (n=16,497).
+[240616 23:28:27] I:225:index_articles_by_date_range - 156/593: Indexed 104/104 articles for 05.04.2023 (n=16,601).
+[240616 23:28:28] I:225:index_articles_by_date_range - 157/593: Indexed 110/110 articles for 06.04.2023 (n=16,711).
+[240616 23:28:28] I:225:index_articles_by_date_range - 158/593: Indexed 93/ 93 articles for 07.04.2023 (n=16,804).
+[240616 23:28:29] I:225:index_articles_by_date_range - 159/593: Indexed 55/ 55 articles for 08.04.2023 (n=16,859).
+[240616 23:28:30] I:225:index_articles_by_date_range - 160/593: Indexed 63/ 63 articles for 09.04.2023 (n=16,922).
+[240616 23:28:30] I:225:index_articles_by_date_range - 161/593: Indexed 67/ 67 articles for 10.04.2023 (n=16,989).
+[240616 23:28:31] I:225:index_articles_by_date_range - 162/593: Indexed 102/102 articles for 11.04.2023 (n=17,091).
+[240616 23:28:31] I:225:index_articles_by_date_range - 163/593: Indexed 107/107 articles for 12.04.2023 (n=17,198).
+[240616 23:28:32] I:225:index_articles_by_date_range - 164/593: Indexed 113/113 articles for 13.04.2023 (n=17,311).
+[240616 23:28:33] I:225:index_articles_by_date_range - 165/593: Indexed 123/124 articles for 14.04.2023 (n=17,434).
+[240616 23:28:34] I:225:index_articles_by_date_range - 166/593: Indexed 80/ 80 articles for 15.04.2023 (n=17,514).
+[240616 23:28:35] I:225:index_articles_by_date_range - 167/593: Indexed 74/ 74 articles for 16.04.2023 (n=17,588).
+[240616 23:28:36] I:225:index_articles_by_date_range - 168/593: Indexed 108/108 articles for 17.04.2023 (n=17,696).
+[240616 23:28:37] I:225:index_articles_by_date_range - 169/593: Indexed 105/105 articles for 18.04.2023 (n=17,801).
+[240616 23:28:38] I:225:index_articles_by_date_range - 170/593: Indexed 121/121 articles for 19.04.2023 (n=17,922).
+[240616 23:28:38] I:225:index_articles_by_date_range - 171/593: Indexed 120/120 articles for 20.04.2023 (n=18,042).
+[240616 23:28:39] I:225:index_articles_by_date_range - 172/593: Indexed 140/140 articles for 21.04.2023 (n=18,182).
+[240616 23:28:39] I:225:index_articles_by_date_range - 173/593: Indexed 71/ 71 articles for 22.04.2023 (n=18,253).
+[240616 23:28:40] I:225:index_articles_by_date_range - 174/593: Indexed 73/ 73 articles for 23.04.2023 (n=18,326).
+[240616 23:28:41] I:225:index_articles_by_date_range - 175/593: Indexed 114/114 articles for 24.04.2023 (n=18,440).
+[240616 23:28:41] I:225:index_articles_by_date_range - 176/593: Indexed 121/121 articles for 25.04.2023 (n=18,561).
+[240616 23:28:42] I:225:index_articles_by_date_range - 177/593: Indexed 108/108 articles for 26.04.2023 (n=18,669).
+[240616 23:28:43] I:225:index_articles_by_date_range - 178/593: Indexed 103/105 articles for 27.04.2023 (n=18,772).
+[240616 23:28:44] I:225:index_articles_by_date_range - 179/593: Indexed 114/114 articles for 28.04.2023 (n=18,886).
+[240616 23:28:45] I:225:index_articles_by_date_range - 180/593: Indexed 75/ 75 articles for 29.04.2023 (n=18,961).
+[240616 23:28:46] I:225:index_articles_by_date_range - 181/593: Indexed 74/ 74 articles for 30.04.2023 (n=19,035).
+[240616 23:28:47] I:225:index_articles_by_date_range - 182/593: Indexed 90/ 90 articles for 01.05.2023 (n=19,125).
+[240616 23:28:48] I:225:index_articles_by_date_range - 183/593: Indexed 97/ 97 articles for 02.05.2023 (n=19,222).
+[240616 23:28:49] I:225:index_articles_by_date_range - 184/593: Indexed 118/118 articles for 03.05.2023 (n=19,340).
+[240616 23:28:50] I:225:index_articles_by_date_range - 185/593: Indexed 109/109 articles for 04.05.2023 (n=19,449).
+[240616 23:28:51] I:225:index_articles_by_date_range - 186/593: Indexed 129/129 articles for 05.05.2023 (n=19,578).
+[240616 23:28:52] I:225:index_articles_by_date_range - 187/593: Indexed 85/ 85 articles for 06.05.2023 (n=19,663).
+[240616 23:28:52] I:225:index_articles_by_date_range - 188/593: Indexed 75/ 75 articles for 07.05.2023 (n=19,738).
+[240616 23:28:53] I:225:index_articles_by_date_range - 189/593: Indexed 96/ 96 articles for 08.05.2023 (n=19,834).
+[240616 23:28:55] I:225:index_articles_by_date_range - 190/593: Indexed 102/102 articles for 09.05.2023 (n=19,936).
+[240616 23:28:55] I:225:index_articles_by_date_range - 191/593: Indexed 120/120 articles for 10.05.2023 (n=20,056).
+[240616 23:28:56] I:225:index_articles_by_date_range - 192/593: Indexed 124/124 articles for 11.05.2023 (n=20,180).
+[240616 23:28:57] I:225:index_articles_by_date_range - 193/593: Indexed 137/137 articles for 12.05.2023 (n=20,317).
+[240616 23:28:58] I:225:index_articles_by_date_range - 194/593: Indexed 72/ 72 articles for 13.05.2023 (n=20,389).
+[240616 23:28:59] I:225:index_articles_by_date_range - 195/593: Indexed 88/ 88 articles for 14.05.2023 (n=20,477).
+[240616 23:28:59] I:225:index_articles_by_date_range - 196/593: Indexed 120/120 articles for 15.05.2023 (n=20,597).
+[240616 23:29:00] I:225:index_articles_by_date_range - 197/593: Indexed 94/ 94 articles for 16.05.2023 (n=20,691).
+[240616 23:29:00] I:225:index_articles_by_date_range - 198/593: Indexed 107/107 articles for 17.05.2023 (n=20,798).
+[240616 23:29:01] I:225:index_articles_by_date_range - 199/593: Indexed 101/101 articles for 18.05.2023 (n=20,899).
+[240616 23:29:02] I:225:index_articles_by_date_range - 200/593: Indexed 127/127 articles for 19.05.2023 (n=21,026).
+[240616 23:29:03] I:225:index_articles_by_date_range - 201/593: Indexed 67/ 67 articles for 20.05.2023 (n=21,093).
+[240616 23:29:03] I:225:index_articles_by_date_range - 202/593: Indexed 70/ 70 articles for 21.05.2023 (n=21,163).
+[240616 23:29:03] I:225:index_articles_by_date_range - 203/593: Indexed 95/ 95 articles for 22.05.2023 (n=21,258).
+[240616 23:29:04] I:225:index_articles_by_date_range - 204/593: Indexed 92/ 92 articles for 23.05.2023 (n=21,350).
+[240616 23:29:05] I:225:index_articles_by_date_range - 205/593: Indexed 99/ 99 articles for 24.05.2023 (n=21,449).
+[240616 23:29:06] I:225:index_articles_by_date_range - 206/593: Indexed 116/116 articles for 25.05.2023 (n=21,565).
+[240616 23:29:06] I:225:index_articles_by_date_range - 207/593: Indexed 126/126 articles for 26.05.2023 (n=21,691).
+[240616 23:29:07] I:225:index_articles_by_date_range - 208/593: Indexed 86/ 86 articles for 27.05.2023 (n=21,777).
+[240616 23:29:08] I:225:index_articles_by_date_range - 209/593: Indexed 78/ 78 articles for 28.05.2023 (n=21,855).
+[240616 23:29:08] I:225:index_articles_by_date_range - 210/593: Indexed 69/ 69 articles for 29.05.2023 (n=21,924).
+[240616 23:29:09] I:225:index_articles_by_date_range - 211/593: Indexed 93/ 93 articles for 30.05.2023 (n=22,017).
+[240616 23:29:10] I:225:index_articles_by_date_range - 212/593: Indexed 95/ 95 articles for 31.05.2023 (n=22,112).
+[240616 23:29:11] I:225:index_articles_by_date_range - 213/593: Indexed 110/110 articles for 01.06.2023 (n=22,222).
+[240616 23:29:11] I:225:index_articles_by_date_range - 214/593: Indexed 130/130 articles for 02.06.2023 (n=22,352).
+[240616 23:29:12] I:225:index_articles_by_date_range - 215/593: Indexed 77/ 77 articles for 03.06.2023 (n=22,429).
+[240616 23:29:12] I:225:index_articles_by_date_range - 216/593: Indexed 70/ 70 articles for 04.06.2023 (n=22,499).
+[240616 23:29:12] I:225:index_articles_by_date_range - 217/593: Indexed 94/ 94 articles for 05.06.2023 (n=22,593).
+[240616 23:29:13] I:225:index_articles_by_date_range - 218/593: Indexed 94/ 94 articles for 06.06.2023 (n=22,687).
+[240616 23:29:14] I:225:index_articles_by_date_range - 219/593: Indexed 108/109 articles for 07.06.2023 (n=22,795).
+[240616 23:29:15] I:225:index_articles_by_date_range - 220/593: Indexed 97/ 97 articles for 08.06.2023 (n=22,892).
+[240616 23:29:16] I:225:index_articles_by_date_range - 221/593: Indexed 119/119 articles for 09.06.2023 (n=23,011).
+[240616 23:29:16] I:225:index_articles_by_date_range - 222/593: Indexed 77/ 77 articles for 10.06.2023 (n=23,088).
+[240616 23:29:17] I:225:index_articles_by_date_range - 223/593: Indexed 61/ 61 articles for 11.06.2023 (n=23,149).
+[240616 23:29:18] I:225:index_articles_by_date_range - 224/593: Indexed 102/102 articles for 12.06.2023 (n=23,251).
+[240616 23:29:19] I:225:index_articles_by_date_range - 225/593: Indexed 95/ 95 articles for 13.06.2023 (n=23,346).
+[240616 23:29:20] I:225:index_articles_by_date_range - 226/593: Indexed 115/115 articles for 14.06.2023 (n=23,461).
+[240616 23:29:21] I:225:index_articles_by_date_range - 227/593: Indexed 121/121 articles for 15.06.2023 (n=23,582).
+[240616 23:29:21] I:225:index_articles_by_date_range - 228/593: Indexed 126/126 articles for 16.06.2023 (n=23,708).
+[240616 23:29:22] I:225:index_articles_by_date_range - 229/593: Indexed 77/ 77 articles for 17.06.2023 (n=23,785).
+[240616 23:29:23] I:225:index_articles_by_date_range - 230/593: Indexed 71/ 71 articles for 18.06.2023 (n=23,856).
+[240616 23:29:24] I:225:index_articles_by_date_range - 231/593: Indexed 101/101 articles for 19.06.2023 (n=23,957).
+[240616 23:29:25] I:225:index_articles_by_date_range - 232/593: Indexed 102/102 articles for 20.06.2023 (n=24,059).
+[240616 23:29:26] I:225:index_articles_by_date_range - 233/593: Indexed 98/ 98 articles for 21.06.2023 (n=24,157).
+[240616 23:29:27] I:225:index_articles_by_date_range - 234/593: Indexed 112/112 articles for 22.06.2023 (n=24,269).
+[240616 23:29:28] I:225:index_articles_by_date_range - 235/593: Indexed 137/137 articles for 23.06.2023 (n=24,406).
+[240616 23:29:29] I:225:index_articles_by_date_range - 236/593: Indexed 64/ 64 articles for 24.06.2023 (n=24,470).
+[240616 23:29:30] I:225:index_articles_by_date_range - 237/593: Indexed 75/ 75 articles for 25.06.2023 (n=24,545).
+[240616 23:29:30] I:225:index_articles_by_date_range - 238/593: Indexed 86/ 86 articles for 26.06.2023 (n=24,631).
+[240616 23:29:31] I:225:index_articles_by_date_range - 239/593: Indexed 101/101 articles for 27.06.2023 (n=24,732).
+[240616 23:29:32] I:225:index_articles_by_date_range - 240/593: Indexed 101/101 articles for 28.06.2023 (n=24,833).
+[240616 23:29:33] I:225:index_articles_by_date_range - 241/593: Indexed 124/124 articles for 29.06.2023 (n=24,957).
+[240616 23:29:36] I:225:index_articles_by_date_range - 242/593: Indexed 127/127 articles for 30.06.2023 (n=25,084).
+[240616 23:29:36] I:225:index_articles_by_date_range - 243/593: Indexed 76/ 76 articles for 01.07.2023 (n=25,160).
+[240616 23:29:37] I:225:index_articles_by_date_range - 244/593: Indexed 60/ 60 articles for 02.07.2023 (n=25,220).
+[240616 23:29:40] I:225:index_articles_by_date_range - 245/593: Indexed 101/101 articles for 03.07.2023 (n=25,321).
+[240616 23:29:42] I:225:index_articles_by_date_range - 246/593: Indexed 107/107 articles for 04.07.2023 (n=25,428).
+[240616 23:29:42] I:225:index_articles_by_date_range - 247/593: Indexed 103/103 articles for 05.07.2023 (n=25,531).
+[240616 23:29:43] I:225:index_articles_by_date_range - 248/593: Indexed 106/106 articles for 06.07.2023 (n=25,637).
+[240616 23:29:44] I:225:index_articles_by_date_range - 249/593: Indexed 132/132 articles for 07.07.2023 (n=25,769).
+[240616 23:29:45] I:225:index_articles_by_date_range - 250/593: Indexed 70/ 70 articles for 08.07.2023 (n=25,839).
+[240616 23:29:46] I:225:index_articles_by_date_range - 251/593: Indexed 74/ 74 articles for 09.07.2023 (n=25,913).
+[240616 23:29:46] I:225:index_articles_by_date_range - 252/593: Indexed 99/ 99 articles for 10.07.2023 (n=26,012).
+[240616 23:29:47] I:225:index_articles_by_date_range - 253/593: Indexed 109/109 articles for 11.07.2023 (n=26,121).
+[240616 23:29:48] I:225:index_articles_by_date_range - 254/593: Indexed 111/112 articles for 12.07.2023 (n=26,232).
+[240616 23:29:49] I:225:index_articles_by_date_range - 255/593: Indexed 115/115 articles for 13.07.2023 (n=26,347).
+[240616 23:29:50] I:225:index_articles_by_date_range - 256/593: Indexed 127/127 articles for 14.07.2023 (n=26,474).
+[240616 23:29:51] I:225:index_articles_by_date_range - 257/593: Indexed 72/ 72 articles for 15.07.2023 (n=26,546).
+[240616 23:29:51] I:225:index_articles_by_date_range - 258/593: Indexed 66/ 66 articles for 16.07.2023 (n=26,612).
+[240616 23:29:52] I:225:index_articles_by_date_range - 259/593: Indexed 101/101 articles for 17.07.2023 (n=26,713).
+[240616 23:29:53] I:225:index_articles_by_date_range - 260/593: Indexed 101/101 articles for 18.07.2023 (n=26,814).
+[240616 23:29:53] I:225:index_articles_by_date_range - 261/593: Indexed 112/112 articles for 19.07.2023 (n=26,926).
+[240616 23:29:54] I:225:index_articles_by_date_range - 262/593: Indexed 105/105 articles for 20.07.2023 (n=27,031).
+[240616 23:29:55] I:225:index_articles_by_date_range - 263/593: Indexed 127/127 articles for 21.07.2023 (n=27,158).
+[240616 23:29:56] I:225:index_articles_by_date_range - 264/593: Indexed 74/ 74 articles for 22.07.2023 (n=27,232).
+[240616 23:29:57] I:225:index_articles_by_date_range - 265/593: Indexed 79/ 79 articles for 23.07.2023 (n=27,311).
+[240616 23:29:57] WARNING:36:_wrapper - Exception while executing index_articles_by_date_range: AssertionError.
+[240616 23:29:57] I:37:_wrapper - Retrying in 100 seconds...
+[240616 23:30:33] I:49:__init__ - Initializing de_spiegel scraper.
+[240616 23:30:33] I:130:_load_table - Load database from spiegel.db.
+[240616 23:30:33] I:158:_load_table - Loaded 0 articles from database. 0.0% scraped and 0.0% processed.
+[240616 23:30:33] I:185:index_articles_by_date_range - Start scraping articles for 227 days (01.11.22 - 15.06.23). 0 days already indexed.
+[240616 23:30:34] I:225:index_articles_by_date_range - 1/227: Indexed 111/111 articles for 01.11.2022 (n=111).
+[240616 23:30:35] I:225:index_articles_by_date_range - 2/227: Indexed 120/120 articles for 02.11.2022 (n=231).
+[240616 23:30:35] I:225:index_articles_by_date_range - 3/227: Indexed 128/128 articles for 03.11.2022 (n=359).
+[240616 23:30:36] I:225:index_articles_by_date_range - 4/227: Indexed 157/157 articles for 04.11.2022 (n=516).
+[240616 23:30:36] I:225:index_articles_by_date_range - 5/227: Indexed 73/ 73 articles for 05.11.2022 (n=589).
+[240616 23:30:36] I:225:index_articles_by_date_range - 6/227: Indexed 72/ 72 articles for 06.11.2022 (n=661).
+[240616 23:30:37] I:225:index_articles_by_date_range - 7/227: Indexed 119/119 articles for 07.11.2022 (n=780).
+[240616 23:30:38] I:225:index_articles_by_date_range - 8/227: Indexed 113/113 articles for 08.11.2022 (n=893).
+[240616 23:30:38] I:225:index_articles_by_date_range - 9/227: Indexed 133/133 articles for 09.11.2022 (n=1,026).
+[240616 23:30:38] I:225:index_articles_by_date_range - 10/227: Indexed 122/122 articles for 10.11.2022 (n=1,148).
+[240616 23:30:39] I:225:index_articles_by_date_range - 11/227: Indexed 159/159 articles for 11.11.2022 (n=1,307).
+[240616 23:30:40] I:225:index_articles_by_date_range - 12/227: Indexed 73/ 73 articles for 12.11.2022 (n=1,380).
+[240616 23:30:40] I:225:index_articles_by_date_range - 13/227: Indexed 71/ 71 articles for 13.11.2022 (n=1,451).
+[240616 23:30:41] I:225:index_articles_by_date_range - 14/227: Indexed 108/108 articles for 14.11.2022 (n=1,559).
+[240616 23:30:42] I:225:index_articles_by_date_range - 15/227: Indexed 104/104 articles for 15.11.2022 (n=1,663).
+[240616 23:30:43] I:225:index_articles_by_date_range - 16/227: Indexed 127/127 articles for 16.11.2022 (n=1,790).
+[240616 23:30:43] I:225:index_articles_by_date_range - 17/227: Indexed 135/135 articles for 17.11.2022 (n=1,925).
+[240616 23:30:43] I:225:index_articles_by_date_range - 18/227: Indexed 165/165 articles for 18.11.2022 (n=2,090).
+[240616 23:30:44] I:225:index_articles_by_date_range - 19/227: Indexed 61/ 61 articles for 19.11.2022 (n=2,151).
+[240616 23:30:44] I:225:index_articles_by_date_range - 20/227: Indexed 81/ 81 articles for 20.11.2022 (n=2,232).
+[240616 23:30:45] I:225:index_articles_by_date_range - 21/227: Indexed 99/ 99 articles for 21.11.2022 (n=2,331).
+[240616 23:30:46] I:225:index_articles_by_date_range - 22/227: Indexed 120/120 articles for 22.11.2022 (n=2,451).
+[240616 23:30:47] I:225:index_articles_by_date_range - 23/227: Indexed 121/121 articles for 23.11.2022 (n=2,572).
+[240616 23:30:48] I:225:index_articles_by_date_range - 24/227: Indexed 132/132 articles for 24.11.2022 (n=2,704).
+[240616 23:30:49] I:225:index_articles_by_date_range - 25/227: Indexed 137/137 articles for 25.11.2022 (n=2,841).
+[240616 23:30:50] I:225:index_articles_by_date_range - 26/227: Indexed 76/ 77 articles for 26.11.2022 (n=2,917).
+[240616 23:30:50] I:225:index_articles_by_date_range - 27/227: Indexed 76/ 76 articles for 27.11.2022 (n=2,993).
+[240616 23:30:50] I:225:index_articles_by_date_range - 28/227: Indexed 101/102 articles for 28.11.2022 (n=3,094).
+[240616 23:30:51] I:225:index_articles_by_date_range - 29/227: Indexed 111/111 articles for 29.11.2022 (n=3,205).
+[240616 23:30:52] I:225:index_articles_by_date_range - 30/227: Indexed 114/114 articles for 30.11.2022 (n=3,319).
+[240616 23:30:52] I:225:index_articles_by_date_range - 31/227: Indexed 122/122 articles for 01.12.2022 (n=3,441).
+[240616 23:30:53] I:225:index_articles_by_date_range - 32/227: Indexed 146/146 articles for 02.12.2022 (n=3,587).
+[240616 23:30:53] I:225:index_articles_by_date_range - 33/227: Indexed 83/ 83 articles for 03.12.2022 (n=3,670).
+[240616 23:30:54] I:225:index_articles_by_date_range - 34/227: Indexed 77/ 77 articles for 04.12.2022 (n=3,747).
+[240616 23:30:54] I:225:index_articles_by_date_range - 35/227: Indexed 125/125 articles for 05.12.2022 (n=3,872).
+[240616 23:30:55] I:225:index_articles_by_date_range - 36/227: Indexed 118/118 articles for 06.12.2022 (n=3,990).
+[240616 23:30:56] I:225:index_articles_by_date_range - 37/227: Indexed 122/122 articles for 07.12.2022 (n=4,112).
+[240616 23:30:56] I:225:index_articles_by_date_range - 38/227: Indexed 102/102 articles for 08.12.2022 (n=4,214).
+[240616 23:30:57] I:225:index_articles_by_date_range - 39/227: Indexed 151/151 articles for 09.12.2022 (n=4,365).
+[240616 23:30:58] I:225:index_articles_by_date_range - 40/227: Indexed 69/ 69 articles for 10.12.2022 (n=4,434).
+[240616 23:30:58] I:225:index_articles_by_date_range - 41/227: Indexed 63/ 63 articles for 11.12.2022 (n=4,497).
+[240616 23:30:59] I:225:index_articles_by_date_range - 42/227: Indexed 98/ 98 articles for 12.12.2022 (n=4,595).
+[240616 23:30:59] I:225:index_articles_by_date_range - 43/227: Indexed 119/119 articles for 13.12.2022 (n=4,714).
+[240616 23:31:00] I:225:index_articles_by_date_range - 44/227: Indexed 114/114 articles for 14.12.2022 (n=4,828).
+[240616 23:31:00] I:225:index_articles_by_date_range - 45/227: Indexed 119/119 articles for 15.12.2022 (n=4,947).
+[240616 23:31:00] I:225:index_articles_by_date_range - 46/227: Indexed 133/133 articles for 16.12.2022 (n=5,080).
+[240616 23:31:01] I:225:index_articles_by_date_range - 47/227: Indexed 77/ 77 articles for 17.12.2022 (n=5,157).
+[240616 23:31:02] I:225:index_articles_by_date_range - 48/227: Indexed 69/ 69 articles for 18.12.2022 (n=5,226).
+[240616 23:31:03] I:225:index_articles_by_date_range - 49/227: Indexed 100/100 articles for 19.12.2022 (n=5,326).
+[240616 23:31:04] I:225:index_articles_by_date_range - 50/227: Indexed 107/107 articles for 20.12.2022 (n=5,433).
+[240616 23:31:04] I:225:index_articles_by_date_range - 51/227: Indexed 107/107 articles for 21.12.2022 (n=5,540).
+[240616 23:31:04] I:225:index_articles_by_date_range - 52/227: Indexed 126/126 articles for 22.12.2022 (n=5,666).
+[240616 23:31:05] I:225:index_articles_by_date_range - 53/227: Indexed 86/ 86 articles for 23.12.2022 (n=5,752).
+[240616 23:31:05] I:225:index_articles_by_date_range - 54/227: Indexed 56/ 56 articles for 24.12.2022 (n=5,808).
+[240616 23:31:06] I:225:index_articles_by_date_range - 55/227: Indexed 52/ 52 articles for 25.12.2022 (n=5,860).
+[240616 23:31:06] I:225:index_articles_by_date_range - 56/227: Indexed 84/ 84 articles for 26.12.2022 (n=5,944).
+[240616 23:31:07] I:225:index_articles_by_date_range - 57/227: Indexed 90/ 90 articles for 27.12.2022 (n=6,034).
+[240616 23:31:08] I:225:index_articles_by_date_range - 58/227: Indexed 104/104 articles for 28.12.2022 (n=6,138).
+[240616 23:31:08] I:225:index_articles_by_date_range - 59/227: Indexed 157/157 articles for 29.12.2022 (n=6,295).
+[240616 23:31:08] I:225:index_articles_by_date_range - 60/227: Indexed 105/105 articles for 30.12.2022 (n=6,400).
+[240616 23:31:09] I:225:index_articles_by_date_range - 61/227: Indexed 67/ 67 articles for 31.12.2022 (n=6,467).
+[240616 23:31:09] I:225:index_articles_by_date_range - 62/227: Indexed 58/ 58 articles for 01.01.2023 (n=6,525).
+[240616 23:31:10] I:225:index_articles_by_date_range - 63/227: Indexed 98/ 98 articles for 02.01.2023 (n=6,623).
+[240616 23:31:11] I:225:index_articles_by_date_range - 64/227: Indexed 99/ 99 articles for 03.01.2023 (n=6,722).
+[240616 23:31:11] I:225:index_articles_by_date_range - 65/227: Indexed 95/ 95 articles for 04.01.2023 (n=6,817).
+[240616 23:31:12] I:225:index_articles_by_date_range - 66/227: Indexed 113/113 articles for 05.01.2023 (n=6,930).
+[240616 23:31:13] I:225:index_articles_by_date_range - 67/227: Indexed 131/131 articles for 06.01.2023 (n=7,061).
+[240616 23:31:14] I:225:index_articles_by_date_range - 68/227: Indexed 74/ 74 articles for 07.01.2023 (n=7,135).
+[240616 23:31:15] I:225:index_articles_by_date_range - 69/227: Indexed 70/ 70 articles for 08.01.2023 (n=7,205).
+[240616 23:31:15] I:225:index_articles_by_date_range - 70/227: Indexed 95/ 95 articles for 09.01.2023 (n=7,300).
+[240616 23:31:16] I:225:index_articles_by_date_range - 71/227: Indexed 110/110 articles for 10.01.2023 (n=7,410).
+[240616 23:31:17] I:225:index_articles_by_date_range - 72/227: Indexed 110/110 articles for 11.01.2023 (n=7,520).
+[240616 23:31:18] I:225:index_articles_by_date_range - 73/227: Indexed 123/123 articles for 12.01.2023 (n=7,643).
+[240616 23:31:18] I:225:index_articles_by_date_range - 74/227: Indexed 131/131 articles for 13.01.2023 (n=7,774).
+[240616 23:31:19] I:225:index_articles_by_date_range - 75/227: Indexed 77/ 77 articles for 14.01.2023 (n=7,851).
+[240616 23:31:20] I:225:index_articles_by_date_range - 76/227: Indexed 67/ 67 articles for 15.01.2023 (n=7,918).
+[240616 23:31:20] I:225:index_articles_by_date_range - 77/227: Indexed 106/106 articles for 16.01.2023 (n=8,024).
+[240616 23:31:21] I:225:index_articles_by_date_range - 78/227: Indexed 127/127 articles for 17.01.2023 (n=8,151).
+[240616 23:31:22] I:225:index_articles_by_date_range - 79/227: Indexed 112/112 articles for 18.01.2023 (n=8,263).
+[240616 23:31:22] I:225:index_articles_by_date_range - 80/227: Indexed 134/134 articles for 19.01.2023 (n=8,397).
+[240616 23:31:23] I:225:index_articles_by_date_range - 81/227: Indexed 175/175 articles for 20.01.2023 (n=8,572).
+[240616 23:31:24] I:225:index_articles_by_date_range - 82/227: Indexed 73/ 73 articles for 21.01.2023 (n=8,645).
+[240616 23:31:24] I:225:index_articles_by_date_range - 83/227: Indexed 79/ 79 articles for 22.01.2023 (n=8,724).
+[240616 23:31:25] I:225:index_articles_by_date_range - 84/227: Indexed 114/114 articles for 23.01.2023 (n=8,838).
+[240616 23:31:25] I:225:index_articles_by_date_range - 85/227: Indexed 109/109 articles for 24.01.2023 (n=8,947).
+[240616 23:31:26] I:225:index_articles_by_date_range - 86/227: Indexed 116/116 articles for 25.01.2023 (n=9,063).
+[240616 23:31:27] I:225:index_articles_by_date_range - 87/227: Indexed 133/133 articles for 26.01.2023 (n=9,196).
+[240616 23:31:28] I:225:index_articles_by_date_range - 88/227: Indexed 151/151 articles for 27.01.2023 (n=9,347).
+[240616 23:31:28] I:225:index_articles_by_date_range - 89/227: Indexed 62/ 62 articles for 28.01.2023 (n=9,409).
+[240616 23:31:28] I:225:index_articles_by_date_range - 90/227: Indexed 78/ 78 articles for 29.01.2023 (n=9,487).
+[240616 23:31:29] I:225:index_articles_by_date_range - 91/227: Indexed 118/118 articles for 30.01.2023 (n=9,605).
+[240616 23:31:30] I:225:index_articles_by_date_range - 92/227: Indexed 126/126 articles for 31.01.2023 (n=9,731).
+[240616 23:31:31] I:225:index_articles_by_date_range - 93/227: Indexed 112/112 articles for 01.02.2023 (n=9,843).
+[240616 23:31:32] I:225:index_articles_by_date_range - 94/227: Indexed 103/103 articles for 02.02.2023 (n=9,946).
+[240616 23:31:33] I:225:index_articles_by_date_range - 95/227: Indexed 126/126 articles for 03.02.2023 (n=10,072).
+[240616 23:31:34] I:225:index_articles_by_date_range - 96/227: Indexed 71/ 71 articles for 04.02.2023 (n=10,143).
+[240616 23:31:35] I:225:index_articles_by_date_range - 97/227: Indexed 74/ 74 articles for 05.02.2023 (n=10,217).
+[240616 23:31:35] I:225:index_articles_by_date_range - 98/227: Indexed 113/113 articles for 06.02.2023 (n=10,330).
+[240616 23:31:36] I:225:index_articles_by_date_range - 99/227: Indexed 122/122 articles for 07.02.2023 (n=10,452).
+[240616 23:31:36] I:225:index_articles_by_date_range - 100/227: Indexed 115/115 articles for 08.02.2023 (n=10,567).
+[240616 23:31:36] I:225:index_articles_by_date_range - 101/227: Indexed 117/117 articles for 09.02.2023 (n=10,684).
+[240616 23:31:37] I:225:index_articles_by_date_range - 102/227: Indexed 147/147 articles for 10.02.2023 (n=10,831).
+[240616 23:31:38] I:225:index_articles_by_date_range - 103/227: Indexed 79/ 79 articles for 11.02.2023 (n=10,910).
+[240616 23:31:39] I:225:index_articles_by_date_range - 104/227: Indexed 95/ 95 articles for 12.02.2023 (n=11,005).
+[240616 23:31:40] I:225:index_articles_by_date_range - 105/227: Indexed 115/115 articles for 13.02.2023 (n=11,120).
+[240616 23:31:41] I:225:index_articles_by_date_range - 106/227: Indexed 125/125 articles for 14.02.2023 (n=11,245).
+[240616 23:31:41] I:225:index_articles_by_date_range - 107/227: Indexed 127/127 articles for 15.02.2023 (n=11,372).
+[240616 23:31:42] I:225:index_articles_by_date_range - 108/227: Indexed 120/120 articles for 16.02.2023 (n=11,492).
+[240616 23:31:43] I:225:index_articles_by_date_range - 109/227: Indexed 151/151 articles for 17.02.2023 (n=11,643).
+[240616 23:31:44] I:225:index_articles_by_date_range - 110/227: Indexed 81/ 81 articles for 18.02.2023 (n=11,724).
+[240616 23:31:45] I:225:index_articles_by_date_range - 111/227: Indexed 75/ 75 articles for 19.02.2023 (n=11,799).
+[240616 23:31:45] I:225:index_articles_by_date_range - 112/227: Indexed 99/ 99 articles for 20.02.2023 (n=11,898).
+[240616 23:31:46] I:225:index_articles_by_date_range - 113/227: Indexed 124/124 articles for 21.02.2023 (n=12,022).
+[240616 23:31:47] I:225:index_articles_by_date_range - 114/227: Indexed 119/119 articles for 22.02.2023 (n=12,141).
+[240616 23:31:47] I:225:index_articles_by_date_range - 115/227: Indexed 125/125 articles for 23.02.2023 (n=12,266).
+[240616 23:31:49] I:225:index_articles_by_date_range - 116/227: Indexed 150/150 articles for 24.02.2023 (n=12,416).
+[240616 23:31:49] I:225:index_articles_by_date_range - 117/227: Indexed 82/ 82 articles for 25.02.2023 (n=12,498).
+[240616 23:31:50] I:225:index_articles_by_date_range - 118/227: Indexed 71/ 71 articles for 26.02.2023 (n=12,569).
+[240616 23:31:51] I:225:index_articles_by_date_range - 119/227: Indexed 91/ 91 articles for 27.02.2023 (n=12,660).
+[240616 23:31:51] I:225:index_articles_by_date_range - 120/227: Indexed 108/108 articles for 28.02.2023 (n=12,768).
+[240616 23:31:52] I:225:index_articles_by_date_range - 121/227: Indexed 119/119 articles for 01.03.2023 (n=12,887).
+[240616 23:31:52] I:225:index_articles_by_date_range - 122/227: Indexed 120/120 articles for 02.03.2023 (n=13,007).
+[240616 23:31:53] I:225:index_articles_by_date_range - 123/227: Indexed 123/123 articles for 03.03.2023 (n=13,130).
+[240616 23:31:54] I:225:index_articles_by_date_range - 124/227: Indexed 80/ 80 articles for 04.03.2023 (n=13,210).
+[240616 23:31:54] I:225:index_articles_by_date_range - 125/227: Indexed 72/ 72 articles for 05.03.2023 (n=13,282).
+[240616 23:31:55] I:225:index_articles_by_date_range - 126/227: Indexed 106/106 articles for 06.03.2023 (n=13,388).
+[240616 23:31:56] I:225:index_articles_by_date_range - 127/227: Indexed 108/108 articles for 07.03.2023 (n=13,496).
+[240616 23:31:56] I:225:index_articles_by_date_range - 128/227: Indexed 106/106 articles for 08.03.2023 (n=13,602).
+[240616 23:31:57] I:225:index_articles_by_date_range - 129/227: Indexed 127/127 articles for 09.03.2023 (n=13,729).
+[240616 23:31:58] I:225:index_articles_by_date_range - 130/227: Indexed 126/126 articles for 10.03.2023 (n=13,855).
+[240616 23:31:58] I:225:index_articles_by_date_range - 131/227: Indexed 81/ 81 articles for 11.03.2023 (n=13,936).
+[240616 23:31:58] I:225:index_articles_by_date_range - 132/227: Indexed 81/ 81 articles for 12.03.2023 (n=14,017).
+[240616 23:31:59] I:225:index_articles_by_date_range - 133/227: Indexed 118/118 articles for 13.03.2023 (n=14,135).
+[240616 23:31:59] I:225:index_articles_by_date_range - 134/227: Indexed 118/118 articles for 14.03.2023 (n=14,253).
+[240616 23:32:01] I:225:index_articles_by_date_range - 135/227: Indexed 117/117 articles for 15.03.2023 (n=14,370).
+[240616 23:32:02] I:225:index_articles_by_date_range - 136/227: Indexed 132/132 articles for 16.03.2023 (n=14,502).
+[240616 23:32:03] I:225:index_articles_by_date_range - 137/227: Indexed 146/146 articles for 17.03.2023 (n=14,648).
+[240616 23:32:03] I:225:index_articles_by_date_range - 138/227: Indexed 95/ 95 articles for 18.03.2023 (n=14,743).
+[240616 23:32:05] I:225:index_articles_by_date_range - 139/227: Indexed 84/ 84 articles for 19.03.2023 (n=14,827).
+[240616 23:32:06] I:225:index_articles_by_date_range - 140/227: Indexed 111/111 articles for 20.03.2023 (n=14,938).
+[240616 23:32:06] I:225:index_articles_by_date_range - 141/227: Indexed 125/125 articles for 21.03.2023 (n=15,063).
+[240616 23:32:06] I:225:index_articles_by_date_range - 142/227: Indexed 110/110 articles for 22.03.2023 (n=15,173).
+[240616 23:32:07] I:225:index_articles_by_date_range - 143/227: Indexed 118/118 articles for 23.03.2023 (n=15,291).
+[240616 23:32:08] I:225:index_articles_by_date_range - 144/227: Indexed 152/152 articles for 24.03.2023 (n=15,443).
+[240616 23:32:08] I:225:index_articles_by_date_range - 145/227: Indexed 68/ 68 articles for 25.03.2023 (n=15,511).
+[240616 23:32:10] I:225:index_articles_by_date_range - 146/227: Indexed 66/ 66 articles for 26.03.2023 (n=15,577).
+[240616 23:32:10] I:225:index_articles_by_date_range - 147/227: Indexed 97/ 97 articles for 27.03.2023 (n=15,674).
+[240616 23:32:11] I:225:index_articles_by_date_range - 148/227: Indexed 109/109 articles for 28.03.2023 (n=15,783).
+[240616 23:32:12] I:225:index_articles_by_date_range - 149/227: Indexed 105/106 articles for 29.03.2023 (n=15,888).
+[240616 23:32:13] I:225:index_articles_by_date_range - 150/227: Indexed 122/122 articles for 30.03.2023 (n=16,010).
+[240616 23:32:14] I:225:index_articles_by_date_range - 151/227: Indexed 141/141 articles for 31.03.2023 (n=16,151).
+[240616 23:32:14] I:225:index_articles_by_date_range - 152/227: Indexed 70/ 70 articles for 01.04.2023 (n=16,221).
+[240616 23:32:15] I:225:index_articles_by_date_range - 153/227: Indexed 72/ 72 articles for 02.04.2023 (n=16,293).
+[240616 23:32:15] I:225:index_articles_by_date_range - 154/227: Indexed 94/ 94 articles for 03.04.2023 (n=16,387).
+[240616 23:32:16] I:225:index_articles_by_date_range - 155/227: Indexed 110/110 articles for 04.04.2023 (n=16,497).
+[240616 23:32:16] I:225:index_articles_by_date_range - 156/227: Indexed 104/104 articles for 05.04.2023 (n=16,601).
+[240616 23:32:17] I:225:index_articles_by_date_range - 157/227: Indexed 110/110 articles for 06.04.2023 (n=16,711).
+[240616 23:32:17] I:225:index_articles_by_date_range - 158/227: Indexed 93/ 93 articles for 07.04.2023 (n=16,804).
+[240616 23:32:18] I:225:index_articles_by_date_range - 159/227: Indexed 55/ 55 articles for 08.04.2023 (n=16,859).
+[240616 23:32:19] I:225:index_articles_by_date_range - 160/227: Indexed 63/ 63 articles for 09.04.2023 (n=16,922).
+[240616 23:32:20] I:225:index_articles_by_date_range - 161/227: Indexed 67/ 67 articles for 10.04.2023 (n=16,989).
+[240616 23:32:20] I:225:index_articles_by_date_range - 162/227: Indexed 102/102 articles for 11.04.2023 (n=17,091).
+[240616 23:32:21] I:225:index_articles_by_date_range - 163/227: Indexed 107/107 articles for 12.04.2023 (n=17,198).
+[240616 23:32:22] I:225:index_articles_by_date_range - 164/227: Indexed 113/113 articles for 13.04.2023 (n=17,311).
+[240616 23:32:22] I:225:index_articles_by_date_range - 165/227: Indexed 123/124 articles for 14.04.2023 (n=17,434).
+[240616 23:32:23] I:225:index_articles_by_date_range - 166/227: Indexed 80/ 80 articles for 15.04.2023 (n=17,514).
+[240616 23:32:23] I:225:index_articles_by_date_range - 167/227: Indexed 74/ 74 articles for 16.04.2023 (n=17,588).
+[240616 23:32:24] I:225:index_articles_by_date_range - 168/227: Indexed 108/108 articles for 17.04.2023 (n=17,696).
+[240616 23:32:24] I:225:index_articles_by_date_range - 169/227: Indexed 105/105 articles for 18.04.2023 (n=17,801).
+[240616 23:32:25] I:225:index_articles_by_date_range - 170/227: Indexed 121/121 articles for 19.04.2023 (n=17,922).
+[240616 23:32:26] I:225:index_articles_by_date_range - 171/227: Indexed 120/120 articles for 20.04.2023 (n=18,042).
+[240616 23:32:27] I:225:index_articles_by_date_range - 172/227: Indexed 140/140 articles for 21.04.2023 (n=18,182).
+[240616 23:32:28] I:225:index_articles_by_date_range - 173/227: Indexed 71/ 71 articles for 22.04.2023 (n=18,253).
+[240616 23:32:28] I:225:index_articles_by_date_range - 174/227: Indexed 73/ 73 articles for 23.04.2023 (n=18,326).
+[240616 23:32:29] I:225:index_articles_by_date_range - 175/227: Indexed 114/114 articles for 24.04.2023 (n=18,440).
+[240616 23:32:30] I:225:index_articles_by_date_range - 176/227: Indexed 121/121 articles for 25.04.2023 (n=18,561).
+[240616 23:32:30] I:225:index_articles_by_date_range - 177/227: Indexed 108/108 articles for 26.04.2023 (n=18,669).
+[240616 23:32:31] I:225:index_articles_by_date_range - 178/227: Indexed 103/105 articles for 27.04.2023 (n=18,772).
+[240616 23:32:32] I:225:index_articles_by_date_range - 179/227: Indexed 114/114 articles for 28.04.2023 (n=18,886).
+[240616 23:32:32] I:225:index_articles_by_date_range - 180/227: Indexed 75/ 75 articles for 29.04.2023 (n=18,961).
+[240616 23:32:33] I:225:index_articles_by_date_range - 181/227: Indexed 74/ 74 articles for 30.04.2023 (n=19,035).
+[240616 23:32:34] I:225:index_articles_by_date_range - 182/227: Indexed 90/ 90 articles for 01.05.2023 (n=19,125).
+[240616 23:32:35] I:225:index_articles_by_date_range - 183/227: Indexed 97/ 97 articles for 02.05.2023 (n=19,222).
+[240616 23:32:36] I:225:index_articles_by_date_range - 184/227: Indexed 118/118 articles for 03.05.2023 (n=19,340).
+[240616 23:32:36] I:225:index_articles_by_date_range - 185/227: Indexed 109/109 articles for 04.05.2023 (n=19,449).
+[240616 23:32:37] I:225:index_articles_by_date_range - 186/227: Indexed 129/129 articles for 05.05.2023 (n=19,578).
+[240616 23:32:38] I:225:index_articles_by_date_range - 187/227: Indexed 85/ 85 articles for 06.05.2023 (n=19,663).
+[240616 23:32:38] I:225:index_articles_by_date_range - 188/227: Indexed 75/ 75 articles for 07.05.2023 (n=19,738).
+[240616 23:32:39] I:225:index_articles_by_date_range - 189/227: Indexed 96/ 96 articles for 08.05.2023 (n=19,834).
+[240616 23:32:39] I:225:index_articles_by_date_range - 190/227: Indexed 102/102 articles for 09.05.2023 (n=19,936).
+[240616 23:32:40] I:225:index_articles_by_date_range - 191/227: Indexed 120/120 articles for 10.05.2023 (n=20,056).
+[240616 23:32:41] I:225:index_articles_by_date_range - 192/227: Indexed 124/124 articles for 11.05.2023 (n=20,180).
+[240616 23:32:42] I:225:index_articles_by_date_range - 193/227: Indexed 137/137 articles for 12.05.2023 (n=20,317).
+[240616 23:32:43] I:225:index_articles_by_date_range - 194/227: Indexed 72/ 72 articles for 13.05.2023 (n=20,389).
+[240616 23:32:44] I:225:index_articles_by_date_range - 195/227: Indexed 88/ 88 articles for 14.05.2023 (n=20,477).
+[240616 23:32:45] I:225:index_articles_by_date_range - 196/227: Indexed 120/120 articles for 15.05.2023 (n=20,597).
+[240616 23:32:46] I:225:index_articles_by_date_range - 197/227: Indexed 94/ 94 articles for 16.05.2023 (n=20,691).
+[240616 23:32:46] I:225:index_articles_by_date_range - 198/227: Indexed 107/107 articles for 17.05.2023 (n=20,798).
+[240616 23:32:47] I:225:index_articles_by_date_range - 199/227: Indexed 101/101 articles for 18.05.2023 (n=20,899).
+[240616 23:32:48] I:225:index_articles_by_date_range - 200/227: Indexed 127/127 articles for 19.05.2023 (n=21,026).
+[240616 23:32:48] I:225:index_articles_by_date_range - 201/227: Indexed 67/ 67 articles for 20.05.2023 (n=21,093).
+[240616 23:32:49] I:225:index_articles_by_date_range - 202/227: Indexed 70/ 70 articles for 21.05.2023 (n=21,163).
+[240616 23:32:49] I:225:index_articles_by_date_range - 203/227: Indexed 95/ 95 articles for 22.05.2023 (n=21,258).
+[240616 23:32:50] I:225:index_articles_by_date_range - 204/227: Indexed 92/ 92 articles for 23.05.2023 (n=21,350).
+[240616 23:32:51] I:225:index_articles_by_date_range - 205/227: Indexed 99/ 99 articles for 24.05.2023 (n=21,449).
+[240616 23:32:51] I:225:index_articles_by_date_range - 206/227: Indexed 116/116 articles for 25.05.2023 (n=21,565).
+[240616 23:32:52] I:225:index_articles_by_date_range - 207/227: Indexed 126/126 articles for 26.05.2023 (n=21,691).
+[240616 23:32:53] I:225:index_articles_by_date_range - 208/227: Indexed 86/ 86 articles for 27.05.2023 (n=21,777).
+[240616 23:32:53] I:225:index_articles_by_date_range - 209/227: Indexed 78/ 78 articles for 28.05.2023 (n=21,855).
+[240616 23:32:54] I:225:index_articles_by_date_range - 210/227: Indexed 69/ 69 articles for 29.05.2023 (n=21,924).
+[240616 23:32:55] I:225:index_articles_by_date_range - 211/227: Indexed 93/ 93 articles for 30.05.2023 (n=22,017).
+[240616 23:32:56] I:225:index_articles_by_date_range - 212/227: Indexed 95/ 95 articles for 31.05.2023 (n=22,112).
+[240616 23:32:57] I:225:index_articles_by_date_range - 213/227: Indexed 110/110 articles for 01.06.2023 (n=22,222).
+[240616 23:32:58] I:225:index_articles_by_date_range - 214/227: Indexed 130/130 articles for 02.06.2023 (n=22,352).
+[240616 23:32:59] I:225:index_articles_by_date_range - 215/227: Indexed 77/ 77 articles for 03.06.2023 (n=22,429).
+[240616 23:32:59] I:225:index_articles_by_date_range - 216/227: Indexed 70/ 70 articles for 04.06.2023 (n=22,499).
+[240616 23:33:00] I:225:index_articles_by_date_range - 217/227: Indexed 94/ 94 articles for 05.06.2023 (n=22,593).
+[240616 23:33:00] I:225:index_articles_by_date_range - 218/227: Indexed 94/ 94 articles for 06.06.2023 (n=22,687).
+[240616 23:33:01] I:225:index_articles_by_date_range - 219/227: Indexed 108/109 articles for 07.06.2023 (n=22,795).
+[240616 23:33:02] I:225:index_articles_by_date_range - 220/227: Indexed 97/ 97 articles for 08.06.2023 (n=22,892).
+[240616 23:33:03] I:225:index_articles_by_date_range - 221/227: Indexed 119/119 articles for 09.06.2023 (n=23,011).
+[240616 23:33:04] I:225:index_articles_by_date_range - 222/227: Indexed 77/ 77 articles for 10.06.2023 (n=23,088).
+[240616 23:33:04] I:225:index_articles_by_date_range - 223/227: Indexed 61/ 61 articles for 11.06.2023 (n=23,149).
+[240616 23:33:05] I:225:index_articles_by_date_range - 224/227: Indexed 102/102 articles for 12.06.2023 (n=23,251).
+[240616 23:33:05] I:225:index_articles_by_date_range - 225/227: Indexed 95/ 95 articles for 13.06.2023 (n=23,346).
+[240616 23:33:06] I:225:index_articles_by_date_range - 226/227: Indexed 115/115 articles for 14.06.2023 (n=23,461).
+[240616 23:33:07] I:225:index_articles_by_date_range - 227/227: Indexed 121/121 articles for 15.06.2023 (n=23,582).
+[240616 23:33:07] I:331:scrape_public_articles - Start scraping 23,582 public articles.
+[240616 23:33:07] I:345:scrape_public_articles - New feature detected: MetaDescription
+[240616 23:33:07] I:345:scrape_public_articles - New feature detected: MetaLang
+[240616 23:33:07] I:345:scrape_public_articles - New feature detected: MetaKeywords
+[240616 23:33:07] I:345:scrape_public_articles - New feature detected: MetaFavicon
+[240616 23:33:07] I:345:scrape_public_articles - New feature detected: MetaCanonical
+[240616 23:33:07] I:345:scrape_public_articles - New feature detected: MetaEncoding
+[240616 23:33:07] I:345:scrape_public_articles - New feature detected: Image
+[240616 23:33:07] I:345:scrape_public_articles - New feature detected: Domain
+[240616 23:33:07] I:345:scrape_public_articles - New feature detected: Title
+[240616 23:33:07] I:345:scrape_public_articles - New feature detected: Text
+[240616 23:33:07] I:345:scrape_public_articles - New feature detected: OpengraphTitle
+[240616 23:33:07] I:345:scrape_public_articles - New feature detected: OpengraphType
+[240616 23:33:07] I:345:scrape_public_articles - New feature detected: OpengraphUrl
+[240616 23:33:07] I:345:scrape_public_articles - New feature detected: OpengraphImage
+[240616 23:33:07] I:345:scrape_public_articles - New feature detected: OpengraphDescription
+[240616 23:33:07] I:345:scrape_public_articles - New feature detected: Tags
+[240616 23:33:07] I:345:scrape_public_articles - New feature detected: Tweets
+[240616 23:33:07] I:345:scrape_public_articles - New feature detected: Movies
+[240616 23:33:07] I:345:scrape_public_articles - New feature detected: Links
+[240616 23:33:07] I:345:scrape_public_articles - New feature detected: Authors
+[240616 23:33:07] I:345:scrape_public_articles - New feature detected: PublishDate
+[240616 23:54:42] WARNING:100:_soup_get_html - Could not identify if article is premium: https://sportdaten.spiegel.de/fussball/fifa-wm/ma9094522/katar_ecuador/liveticker/.
+[240616 23:57:46] WARNING:100:_soup_get_html - Could not identify if article is premium: https://sportdaten.spiegel.de/fussball/fifa-wm/ma9094547/deutschland_japan/liveticker/.
+[240617 00:02:10] WARNING:100:_soup_get_html - Could not identify if article is premium: https://sportdaten.spiegel.de/fussball/fifa-wm/ma9094548/spanien_deutschland/liveticker/.
+[240617 00:06:07] WARNING:100:_soup_get_html - Could not identify if article is premium: https://sportdaten.spiegel.de/fussball/fifa-wm/ma9094551/costa-rica_deutschland/liveticker/.
+[240617 00:15:38] WARNING:100:_soup_get_html - Could not identify if article is premium: https://sportdaten.spiegel.de/fussball/fifa-wm/live-konferenz/dn2022-12-09/.
+[240617 00:17:22] WARNING:100:_soup_get_html - Could not identify if article is premium: https://sportdaten.spiegel.de/fussball/fifa-wm/live-konferenz/dn2022-12-10/.
+[240617 00:19:38] WARNING:100:_soup_get_html - Could not identify if article is premium: https://sportdaten.spiegel.de/fussball/fifa-wm/ma9094629/argentinien_kroatien/liveticker/.
+[240617 00:20:53] WARNING:100:_soup_get_html - Could not identify if article is premium: https://sportdaten.spiegel.de/fussball/fifa-wm/ma9094630/frankreich_marokko/liveticker/.
+[240617 00:25:37] WARNING:100:_soup_get_html - Could not identify if article is premium: https://sportdaten.spiegel.de/fussball/fifa-wm/ma2356532/argentinien_frankreich/liveticker/.
+[240617 01:27:37] WARNING:100:_soup_get_html - Could not identify if article is premium: https://sportdaten.spiegel.de/american-football/nfl/ma9549916/philadelphia-eagles_kansas-city-chiefs/liveticker/.
+[240617 08:52:06] I:49:__init__ - Initializing de_spiegel scraper.
+[240617 08:52:06] I:130:_load_table - Load database from spiegel.db.
+[240617 08:52:06] I:158:_load_table - Loaded 0 articles from database. 0.0% scraped and 0.0% processed.
+[240617 08:52:06] I:185:index_articles_by_date_range - Start scraping articles for 107 days (01.03.23 - 15.06.23). 0 days already indexed.
+[240617 08:52:07] I:225:index_articles_by_date_range - 1/107: Indexed 119/119 articles for 01.03.2023 (n=119).
+[240617 08:52:08] I:225:index_articles_by_date_range - 2/107: Indexed 120/120 articles for 02.03.2023 (n=239).
+[240617 08:52:09] I:225:index_articles_by_date_range - 3/107: Indexed 123/123 articles for 03.03.2023 (n=362).
+[240617 08:52:10] I:225:index_articles_by_date_range - 4/107: Indexed 80/ 80 articles for 04.03.2023 (n=442).
+[240617 08:52:11] I:225:index_articles_by_date_range - 5/107: Indexed 72/ 72 articles for 05.03.2023 (n=514).
+[240617 08:52:11] I:225:index_articles_by_date_range - 6/107: Indexed 106/106 articles for 06.03.2023 (n=620).
+[240617 08:52:12] I:225:index_articles_by_date_range - 7/107: Indexed 108/108 articles for 07.03.2023 (n=728).
+[240617 08:52:13] I:225:index_articles_by_date_range - 8/107: Indexed 106/106 articles for 08.03.2023 (n=834).
+[240617 08:52:14] I:225:index_articles_by_date_range - 9/107: Indexed 127/127 articles for 09.03.2023 (n=961).
+[240617 08:52:15] I:225:index_articles_by_date_range - 10/107: Indexed 126/126 articles for 10.03.2023 (n=1,087).
+[240617 08:52:16] I:225:index_articles_by_date_range - 11/107: Indexed 81/ 81 articles for 11.03.2023 (n=1,168).
+[240617 08:52:17] I:225:index_articles_by_date_range - 12/107: Indexed 81/ 81 articles for 12.03.2023 (n=1,249).
+[240617 08:52:18] I:225:index_articles_by_date_range - 13/107: Indexed 118/118 articles for 13.03.2023 (n=1,367).
+[240617 08:52:18] I:225:index_articles_by_date_range - 14/107: Indexed 118/118 articles for 14.03.2023 (n=1,485).
+[240617 08:52:20] I:225:index_articles_by_date_range - 15/107: Indexed 117/117 articles for 15.03.2023 (n=1,602).
+[240617 08:52:21] I:225:index_articles_by_date_range - 16/107: Indexed 132/132 articles for 16.03.2023 (n=1,734).
+[240617 08:52:23] I:225:index_articles_by_date_range - 17/107: Indexed 146/146 articles for 17.03.2023 (n=1,880).
+[240617 08:52:24] I:225:index_articles_by_date_range - 18/107: Indexed 95/ 95 articles for 18.03.2023 (n=1,975).
+[240617 08:52:25] I:225:index_articles_by_date_range - 19/107: Indexed 84/ 84 articles for 19.03.2023 (n=2,059).
+[240617 08:52:26] I:225:index_articles_by_date_range - 20/107: Indexed 111/111 articles for 20.03.2023 (n=2,170).
+[240617 08:52:27] I:225:index_articles_by_date_range - 21/107: Indexed 125/125 articles for 21.03.2023 (n=2,295).
+[240617 08:52:28] I:225:index_articles_by_date_range - 22/107: Indexed 110/110 articles for 22.03.2023 (n=2,405).
+[240617 08:52:29] I:225:index_articles_by_date_range - 23/107: Indexed 118/118 articles for 23.03.2023 (n=2,523).
+[240617 08:52:30] I:225:index_articles_by_date_range - 24/107: Indexed 152/152 articles for 24.03.2023 (n=2,675).
+[240617 08:52:30] I:225:index_articles_by_date_range - 25/107: Indexed 68/ 68 articles for 25.03.2023 (n=2,743).
+[240617 08:52:31] I:225:index_articles_by_date_range - 26/107: Indexed 66/ 66 articles for 26.03.2023 (n=2,809).
+[240617 08:52:32] I:225:index_articles_by_date_range - 27/107: Indexed 97/ 97 articles for 27.03.2023 (n=2,906).
+[240617 08:52:33] I:225:index_articles_by_date_range - 28/107: Indexed 109/109 articles for 28.03.2023 (n=3,015).
+[240617 08:52:34] I:225:index_articles_by_date_range - 29/107: Indexed 105/106 articles for 29.03.2023 (n=3,120).
+[240617 08:52:35] I:225:index_articles_by_date_range - 30/107: Indexed 122/122 articles for 30.03.2023 (n=3,242).
+[240617 08:52:36] I:225:index_articles_by_date_range - 31/107: Indexed 141/141 articles for 31.03.2023 (n=3,383).
+[240617 08:52:37] I:225:index_articles_by_date_range - 32/107: Indexed 70/ 70 articles for 01.04.2023 (n=3,453).
+[240617 08:52:37] I:225:index_articles_by_date_range - 33/107: Indexed 72/ 72 articles for 02.04.2023 (n=3,525).
+[240617 08:52:38] I:225:index_articles_by_date_range - 34/107: Indexed 94/ 94 articles for 03.04.2023 (n=3,619).
+[240617 08:52:39] I:225:index_articles_by_date_range - 35/107: Indexed 110/110 articles for 04.04.2023 (n=3,729).
+[240617 08:52:40] I:225:index_articles_by_date_range - 36/107: Indexed 104/104 articles for 05.04.2023 (n=3,833).
+[240617 08:52:41] I:225:index_articles_by_date_range - 37/107: Indexed 110/110 articles for 06.04.2023 (n=3,943).
+[240617 08:52:41] I:225:index_articles_by_date_range - 38/107: Indexed 93/ 93 articles for 07.04.2023 (n=4,036).
+[240617 08:52:42] I:225:index_articles_by_date_range - 39/107: Indexed 55/ 55 articles for 08.04.2023 (n=4,091).
+[240617 08:52:43] I:225:index_articles_by_date_range - 40/107: Indexed 63/ 63 articles for 09.04.2023 (n=4,154).
+[240617 08:52:44] I:225:index_articles_by_date_range - 41/107: Indexed 67/ 67 articles for 10.04.2023 (n=4,221).
+[240617 08:52:45] I:225:index_articles_by_date_range - 42/107: Indexed 102/102 articles for 11.04.2023 (n=4,323).
+[240617 08:52:46] I:225:index_articles_by_date_range - 43/107: Indexed 107/107 articles for 12.04.2023 (n=4,430).
+[240617 08:52:47] I:225:index_articles_by_date_range - 44/107: Indexed 113/113 articles for 13.04.2023 (n=4,543).
+[240617 08:52:48] I:225:index_articles_by_date_range - 45/107: Indexed 123/124 articles for 14.04.2023 (n=4,666).
+[240617 08:52:49] I:225:index_articles_by_date_range - 46/107: Indexed 80/ 80 articles for 15.04.2023 (n=4,746).
+[240617 08:52:50] I:225:index_articles_by_date_range - 47/107: Indexed 74/ 74 articles for 16.04.2023 (n=4,820).
+[240617 08:52:51] I:225:index_articles_by_date_range - 48/107: Indexed 108/108 articles for 17.04.2023 (n=4,928).
+[240617 08:52:52] I:225:index_articles_by_date_range - 49/107: Indexed 105/105 articles for 18.04.2023 (n=5,033).
+[240617 08:52:53] I:225:index_articles_by_date_range - 50/107: Indexed 121/121 articles for 19.04.2023 (n=5,154).
+[240617 08:52:53] I:225:index_articles_by_date_range - 51/107: Indexed 120/120 articles for 20.04.2023 (n=5,274).
+[240617 08:52:55] I:225:index_articles_by_date_range - 52/107: Indexed 140/140 articles for 21.04.2023 (n=5,414).
+[240617 08:52:56] I:225:index_articles_by_date_range - 53/107: Indexed 71/ 71 articles for 22.04.2023 (n=5,485).
+[240617 08:52:56] I:225:index_articles_by_date_range - 54/107: Indexed 73/ 73 articles for 23.04.2023 (n=5,558).
+[240617 08:52:57] I:225:index_articles_by_date_range - 55/107: Indexed 114/114 articles for 24.04.2023 (n=5,672).
+[240617 08:52:58] I:225:index_articles_by_date_range - 56/107: Indexed 121/121 articles for 25.04.2023 (n=5,793).
+[240617 08:52:59] I:225:index_articles_by_date_range - 57/107: Indexed 108/108 articles for 26.04.2023 (n=5,901).
+[240617 08:53:00] I:225:index_articles_by_date_range - 58/107: Indexed 103/105 articles for 27.04.2023 (n=6,004).
+[240617 08:53:01] I:225:index_articles_by_date_range - 59/107: Indexed 114/114 articles for 28.04.2023 (n=6,118).
+[240617 08:53:02] I:225:index_articles_by_date_range - 60/107: Indexed 75/ 75 articles for 29.04.2023 (n=6,193).
+[240617 08:53:03] I:225:index_articles_by_date_range - 61/107: Indexed 74/ 74 articles for 30.04.2023 (n=6,267).
+[240617 08:53:04] I:225:index_articles_by_date_range - 62/107: Indexed 90/ 90 articles for 01.05.2023 (n=6,357).
+[240617 08:53:05] I:225:index_articles_by_date_range - 63/107: Indexed 97/ 97 articles for 02.05.2023 (n=6,454).
+[240617 08:53:06] I:225:index_articles_by_date_range - 64/107: Indexed 118/118 articles for 03.05.2023 (n=6,572).
+[240617 08:53:07] I:225:index_articles_by_date_range - 65/107: Indexed 109/109 articles for 04.05.2023 (n=6,681).
+[240617 08:53:08] I:225:index_articles_by_date_range - 66/107: Indexed 129/129 articles for 05.05.2023 (n=6,810).
+[240617 08:53:09] I:225:index_articles_by_date_range - 67/107: Indexed 85/ 85 articles for 06.05.2023 (n=6,895).
+[240617 08:53:10] I:225:index_articles_by_date_range - 68/107: Indexed 75/ 75 articles for 07.05.2023 (n=6,970).
+[240617 08:53:11] I:225:index_articles_by_date_range - 69/107: Indexed 96/ 96 articles for 08.05.2023 (n=7,066).
+[240617 08:53:11] I:225:index_articles_by_date_range - 70/107: Indexed 102/102 articles for 09.05.2023 (n=7,168).
+[240617 08:53:13] I:225:index_articles_by_date_range - 71/107: Indexed 120/120 articles for 10.05.2023 (n=7,288).
+[240617 08:53:14] I:225:index_articles_by_date_range - 72/107: Indexed 124/124 articles for 11.05.2023 (n=7,412).
+[240617 08:53:15] I:225:index_articles_by_date_range - 73/107: Indexed 137/137 articles for 12.05.2023 (n=7,549).
+[240617 08:53:16] I:225:index_articles_by_date_range - 74/107: Indexed 72/ 72 articles for 13.05.2023 (n=7,621).
+[240617 08:53:17] I:225:index_articles_by_date_range - 75/107: Indexed 88/ 88 articles for 14.05.2023 (n=7,709).
+[240617 08:53:17] I:225:index_articles_by_date_range - 76/107: Indexed 120/120 articles for 15.05.2023 (n=7,829).
+[240617 08:53:18] I:225:index_articles_by_date_range - 77/107: Indexed 94/ 94 articles for 16.05.2023 (n=7,923).
+[240617 08:53:19] I:225:index_articles_by_date_range - 78/107: Indexed 107/107 articles for 17.05.2023 (n=8,030).
+[240617 08:53:20] I:225:index_articles_by_date_range - 79/107: Indexed 101/101 articles for 18.05.2023 (n=8,131).
+[240617 08:53:21] I:225:index_articles_by_date_range - 80/107: Indexed 127/127 articles for 19.05.2023 (n=8,258).
+[240617 08:53:21] I:225:index_articles_by_date_range - 81/107: Indexed 67/ 67 articles for 20.05.2023 (n=8,325).
+[240617 08:53:22] I:225:index_articles_by_date_range - 82/107: Indexed 70/ 70 articles for 21.05.2023 (n=8,395).
+[240617 08:53:23] I:225:index_articles_by_date_range - 83/107: Indexed 95/ 95 articles for 22.05.2023 (n=8,490).
+[240617 08:53:24] I:225:index_articles_by_date_range - 84/107: Indexed 92/ 92 articles for 23.05.2023 (n=8,582).
+[240617 08:53:25] I:225:index_articles_by_date_range - 85/107: Indexed 99/ 99 articles for 24.05.2023 (n=8,681).
+[240617 08:53:26] I:225:index_articles_by_date_range - 86/107: Indexed 116/116 articles for 25.05.2023 (n=8,797).
+[240617 08:53:27] I:225:index_articles_by_date_range - 87/107: Indexed 126/126 articles for 26.05.2023 (n=8,923).
+[240617 08:53:27] I:225:index_articles_by_date_range - 88/107: Indexed 86/ 86 articles for 27.05.2023 (n=9,009).
+[240617 08:53:28] I:225:index_articles_by_date_range - 89/107: Indexed 78/ 78 articles for 28.05.2023 (n=9,087).
+[240617 08:53:29] I:225:index_articles_by_date_range - 90/107: Indexed 69/ 69 articles for 29.05.2023 (n=9,156).
+[240617 08:53:30] I:225:index_articles_by_date_range - 91/107: Indexed 93/ 93 articles for 30.05.2023 (n=9,249).
+[240617 08:53:31] I:225:index_articles_by_date_range - 92/107: Indexed 95/ 95 articles for 31.05.2023 (n=9,344).
+[240617 08:53:32] I:225:index_articles_by_date_range - 93/107: Indexed 110/110 articles for 01.06.2023 (n=9,454).
+[240617 08:53:33] I:225:index_articles_by_date_range - 94/107: Indexed 130/130 articles for 02.06.2023 (n=9,584).
+[240617 08:53:34] I:225:index_articles_by_date_range - 95/107: Indexed 77/ 77 articles for 03.06.2023 (n=9,661).
+[240617 08:53:34] I:225:index_articles_by_date_range - 96/107: Indexed 70/ 70 articles for 04.06.2023 (n=9,731).
+[240617 08:53:35] I:225:index_articles_by_date_range - 97/107: Indexed 94/ 94 articles for 05.06.2023 (n=9,825).
+[240617 08:53:36] I:225:index_articles_by_date_range - 98/107: Indexed 94/ 94 articles for 06.06.2023 (n=9,919).
+[240617 08:53:37] I:225:index_articles_by_date_range - 99/107: Indexed 108/109 articles for 07.06.2023 (n=10,027).
+[240617 08:53:38] I:225:index_articles_by_date_range - 100/107: Indexed 97/ 97 articles for 08.06.2023 (n=10,124).
+[240617 08:53:38] I:225:index_articles_by_date_range - 101/107: Indexed 119/119 articles for 09.06.2023 (n=10,243).
+[240617 08:53:39] I:225:index_articles_by_date_range - 102/107: Indexed 77/ 77 articles for 10.06.2023 (n=10,320).
+[240617 08:53:40] I:225:index_articles_by_date_range - 103/107: Indexed 61/ 61 articles for 11.06.2023 (n=10,381).
+[240617 08:53:41] I:225:index_articles_by_date_range - 104/107: Indexed 102/102 articles for 12.06.2023 (n=10,483).
+[240617 08:53:42] I:225:index_articles_by_date_range - 105/107: Indexed 95/ 95 articles for 13.06.2023 (n=10,578).
+[240617 08:53:43] I:225:index_articles_by_date_range - 106/107: Indexed 115/115 articles for 14.06.2023 (n=10,693).
+[240617 08:53:44] I:225:index_articles_by_date_range - 107/107: Indexed 121/121 articles for 15.06.2023 (n=10,814).
+[240617 08:53:44] I:331:scrape_public_articles - Start scraping 10,814 public articles.
+[240617 08:53:44] I:345:scrape_public_articles - New feature detected: MetaDescription
+[240617 08:53:44] I:345:scrape_public_articles - New feature detected: MetaLang
+[240617 08:53:44] I:345:scrape_public_articles - New feature detected: MetaKeywords
+[240617 08:53:44] I:345:scrape_public_articles - New feature detected: MetaFavicon
+[240617 08:53:44] I:345:scrape_public_articles - New feature detected: MetaCanonical
+[240617 08:53:44] I:345:scrape_public_articles - New feature detected: MetaEncoding
+[240617 08:53:44] I:345:scrape_public_articles - New feature detected: Image
+[240617 08:53:44] I:345:scrape_public_articles - New feature detected: Domain
+[240617 08:53:44] I:345:scrape_public_articles - New feature detected: Title
+[240617 08:53:44] I:345:scrape_public_articles - New feature detected: Text
+[240617 08:53:44] I:345:scrape_public_articles - New feature detected: OpengraphTitle
+[240617 08:53:44] I:345:scrape_public_articles - New feature detected: OpengraphType
+[240617 08:53:44] I:345:scrape_public_articles - New feature detected: OpengraphUrl
+[240617 08:53:44] I:345:scrape_public_articles - New feature detected: OpengraphImage
+[240617 08:53:44] I:345:scrape_public_articles - New feature detected: OpengraphDescription
+[240617 08:53:44] I:345:scrape_public_articles - New feature detected: Tags
+[240617 08:53:44] I:345:scrape_public_articles - New feature detected: Tweets
+[240617 08:53:44] I:345:scrape_public_articles - New feature detected: Movies
+[240617 08:53:44] I:345:scrape_public_articles - New feature detected: Links
+[240617 08:53:44] I:345:scrape_public_articles - New feature detected: Authors
+[240617 08:53:44] I:345:scrape_public_articles - New feature detected: PublishDate
+[240617 09:30:39] WARNING:100:_soup_get_html - Could not identify if article is premium: https://sportdaten.spiegel.de/fussball/bundesliga/ma9417966/bayern-muenchen_borussia-dortmund/liveticker/.
+[240617 09:49:01] WARNING:100:_soup_get_html - Could not identify if article is premium: https://sportdaten.spiegel.de/fussball/uefa-champions-league/ma9412086/bayern-muenchen_manchester-city/liveticker/.
+[240617 10:17:06] I:49:__init__ - Initializing de_spiegel scraper.
+[240617 10:17:06] I:130:_load_table - Load database from spiegel.db.
+[240617 10:17:06] I:158:_load_table - Loaded 10,814 articles from database. 49.9% scraped and 0.0% processed.
+[240617 10:17:06] I:182:index_articles_by_date_range - No new days to scrape. Pass skip_existing=False to scrape all days again.
+[240617 10:17:06] I:331:scrape_public_articles - Start scraping 3,366 public articles.
+[240617 10:18:07] WARNING:36:_wrapper - Exception while executing scrape_public_articles: IntegrityError.
+[240617 10:18:07] I:37:_wrapper - Retrying in 100 seconds...
+[240617 10:19:47] I:331:scrape_public_articles - Start scraping 3,263 public articles.
+[240617 10:34:53] WARNING:100:_soup_get_html - Could not identify if article is premium: https://sportdaten.spiegel.de/fussball/bundesliga/ma9418033/borussia-dortmund_1-fsv-mainz-05/liveticker/.
+[240617 10:48:13] WARNING:100:_soup_get_html - Could not identify if article is premium: https://sportdaten.spiegel.de/tennis/atp-french-open/ma9610546/carlos-alcaraz_novak-djokovic/liveticker/.
+[240617 10:55:16] I:435:nlp - Start processing 7,733 articles.
